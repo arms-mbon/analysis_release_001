@@ -1,12 +1,24 @@
 # analysis_release_001
 
-These are the analysis results related to the publication XXX and as published in the EurOBIS DOI XXX (to be written once these references exist; give or refer to a list of stations and years that are covered)
+[PEMA](https://github.com/hariszaf/pema) is the metabarcoding analysis pipeline we use to process the COI, 18S, and ITS raw sequences obtained from the ARMS-MBON samples. In this repository you will find the bioinformatics results associated with the EurOBIS DOI XXX (still to be created): species identifications from ARMS-MBON data from 2018-2020 for the COI marker gene.
 
-The data here are the P.E.M.A bioinformatics analysis results of the subset of the sampling events taken from [ARMS GitHub working space](https://github.com/arms-mbon/data_workspace). This data workspace is where data are harvested from the source locations (PlutoF and google sheets for the event data; PEMA google drive for the taxonomic data), quality controlled, and combined into user-friendly formats. 
+The raw sequences are deposted in [ENA](https://www.ebi.ac.uk/ena/browser/home) and information regarding these can be found in [the data workspace repo](https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data) and with the [SOPs](https://github.com/arms-mbon/documentation/tree/main/standard_operating_procedures). 
 
-The sequence data arising from these sampling events were then processed with P.E.M.A. To see all the PEMA outputs, go to the [PEMA working repository](https://github.com/arms-mbon/data_workspace/tree/main/PEMAoutputs): here we include only the subset that are associated with the COI data from the 2018-2020 sampling events that are published in the [data_release repo](https://github.com/arms-mbon/data_release_001).  
+The sequences were processed through PEMA after being grouped by gene and by MiSeq sequencing run. Included in this repository are:
+* The parameter files used as input for each PEMA processing run
+* The taxonomic assignment files output by PEMA
+* *The fasta files output by PEMA (to be added)* 
 
-**MORE INFO on PEMA version etc? or explain the ro-crate here...**
+The full set of PEMA files (i.e. for all the ARMS-MBON processing we have done) can be found in [ARMS GitHub working space](https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema): this repository is specifically those results published in EurOBIS DOI XXX.
+
+Some of the PEMA processing metadata for these COI runs. Links to all included algos and DBs can be found in the PEMA URL, as well as HowTos and references
+| parameter | value |
+| --- | --- | 
+| PEMA URL | https://github.com/hariszaf/pema | 
+| PEMA version | v2.1.4 | 
+| ref database for taxonomy assignment | Midori v2 | 
+| clustering algorithm | Swarm | 
+
 
 
 
