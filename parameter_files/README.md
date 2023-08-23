@@ -5,5 +5,5 @@ In these parameter files are all the parameters that were set in PEMA. Note that
 
 To learn more about all other parameters that were set, read the respective parameter files.
 Note that the ENA run accession numbers of the sequences that were processed are not included in these parameter files: that information is contained in the
-[PEMA batch 1 overview](https://github.com/arms-mbon/analysis_release_001/blob/main/pema_overview_batch1.xlsx), together with other relevant metadata.
+[PEMA batch 1 overview](https://github.com/arms-mbon/analysis_release_001/blob/main/pema_overview_COI_batch1.xlsx), together with other relevant metadata.
 For more information on PEMA and its parameters, see [the PEMA GitHub repo](https://github.com/hariszaf/pema)
