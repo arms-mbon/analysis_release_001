@@ -1,0 +1,252 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "./fasta/",
+            "@type": "Dataset",
+            "label": "./fasta/",
+            "hasPart": [
+                {
+                    "@id": "./fasta/README.md"
+                }
+            ]
+        },
+        {
+            "@id": "./parameter_files/",
+            "@type": "Dataset",
+            "label": "./parameter_files/",
+            "hasPart": [
+                {
+                    "@id": "./parameter_files/parameters0f.COI_April2021.tsv"
+                },
+                {
+                    "@id": "./parameter_files/parameters0f.COI_Jan2020.tsv"
+                },
+                {
+                    "@id": "./parameter_files/parameters0f.COI_Jan2022.tsv"
+                },
+                {
+                    "@id": "./parameter_files/parameters0f.COI_Jul2019.tsv"
+                },
+                {
+                    "@id": "./parameter_files/parameters0f.COI_May2021.tsv"
+                },
+                {
+                    "@id": "./parameter_files/parameters0f.COI_Sept2020.tsv"
+                },
+                {
+                    "@id": "./parameter_files/README.md"
+                }
+            ]
+        },
+        {
+            "@id": "./taxonomic_assignments/",
+            "@type": "Dataset",
+            "label": "./taxonomic_assignments/",
+            "hasPart": [
+                {
+                    "@id": "./taxonomic_assignments/Extended_final_table_April2021_COI_noBlank.xlsx"
+                },
+                {
+                    "@id": "./taxonomic_assignments/Extended_final_table_January2020_COI_noBlank.xlsx"
+                },
+                {
+                    "@id": "./taxonomic_assignments/Extended_final_table_January2022_COI_noBlank.xlsx"
+                },
+                {
+                    "@id": "./taxonomic_assignments/Extended_final_table_July2019_COI_noBlank.xlsx"
+                },
+                {
+                    "@id": "./taxonomic_assignments/Extended_final_table_May2021_COI_noBlank.xlsx"
+                },
+                {
+                    "@id": "./taxonomic_assignments/Extended_final_table_September2020_COI_noBlank.xlsx"
+                },
+                {
+                    "@id": "C:/Users/cedricd/Documents/GitHub/dmbon-assistant/backend/app/workspace/analysis_release_001/taxonomic_assignments/OTUs_ASVs_that_were_removed_modified_because_they_occurred_in_the_blanks.xlsx"
+                },
+                {
+                    "@id": "./taxonomic_assignments/README.md"
+                },
+                {
+                    "@id": "./taxonomic_assignments/Samples_with_no_results.xlsx"
+                },
+                {
+                    "@id": "./taxonomic_assignments/tax_assignments_April2021_COI_noBlank.tsv"
+                },
+                {
+                    "@id": "./taxonomic_assignments/tax_assignments_Jan2020_COI_noBlank.tsv"
+                },
+                {
+                    "@id": "./taxonomic_assignments/tax_assignments_July2019_COI.xlsx"
+                },
+                {
+                    "@id": "./taxonomic_assignments/tax_assignments_May2021_COI.tsv"
+                },
+                {
+                    "@id": "./taxonomic_assignments/tax_assignments_Sept2020_COI_noBlank.tsv"
+                }
+            ]
+        },
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "label": "./",
+            "hasPart": [
+                {
+                    "@id": "./fasta/"
+                },
+                {
+                    "@id": "./parameter_files/"
+                },
+                {
+                    "@id": "./taxonomic_assignments/"
+                },
+                {
+                    "@id": "./LICENSE"
+                },
+                {
+                    "@id": "./pema_overview_COI_batch1.xlsx"
+                },
+                {
+                    "@id": "./README.md"
+                }
+            ]
+        },
+        {
+            "@id": "./fasta/README.md",
+            "@type": "File",
+            "label": "./fasta/README.md"
+        },
+        {
+            "@id": "./parameter_files/parameters0f.COI_April2021.tsv",
+            "@type": "File",
+            "label": "./parameter_files/parameters0f.COI_April2021.tsv"
+        },
+        {
+            "@id": "./parameter_files/parameters0f.COI_Jan2020.tsv",
+            "@type": "File",
+            "label": "./parameter_files/parameters0f.COI_Jan2020.tsv"
+        },
+        {
+            "@id": "./parameter_files/parameters0f.COI_Jan2022.tsv",
+            "@type": "File",
+            "label": "./parameter_files/parameters0f.COI_Jan2022.tsv"
+        },
+        {
+            "@id": "./parameter_files/parameters0f.COI_Jul2019.tsv",
+            "@type": "File",
+            "label": "./parameter_files/parameters0f.COI_Jul2019.tsv"
+        },
+        {
+            "@id": "./parameter_files/parameters0f.COI_May2021.tsv",
+            "@type": "File",
+            "label": "./parameter_files/parameters0f.COI_May2021.tsv"
+        },
+        {
+            "@id": "./parameter_files/parameters0f.COI_Sept2020.tsv",
+            "@type": "File",
+            "label": "./parameter_files/parameters0f.COI_Sept2020.tsv"
+        },
+        {
+            "@id": "./parameter_files/README.md",
+            "@type": "File",
+            "label": "./parameter_files/README.md"
+        },
+        {
+            "@id": "./taxonomic_assignments/Extended_final_table_April2021_COI_noBlank.xlsx",
+            "@type": "File",
+            "label": "./taxonomic_assignments/Extended_final_table_April2021_COI_noBlank.xlsx"
+        },
+        {
+            "@id": "./taxonomic_assignments/Extended_final_table_January2020_COI_noBlank.xlsx",
+            "@type": "File",
+            "label": "./taxonomic_assignments/Extended_final_table_January2020_COI_noBlank.xlsx"
+        },
+        {
+            "@id": "./taxonomic_assignments/Extended_final_table_January2022_COI_noBlank.xlsx",
+            "@type": "File",
+            "label": "./taxonomic_assignments/Extended_final_table_January2022_COI_noBlank.xlsx"
+        },
+        {
+            "@id": "./taxonomic_assignments/Extended_final_table_July2019_COI_noBlank.xlsx",
+            "@type": "File",
+            "label": "./taxonomic_assignments/Extended_final_table_July2019_COI_noBlank.xlsx"
+        },
+        {
+            "@id": "./taxonomic_assignments/Extended_final_table_May2021_COI_noBlank.xlsx",
+            "@type": "File",
+            "label": "./taxonomic_assignments/Extended_final_table_May2021_COI_noBlank.xlsx"
+        },
+        {
+            "@id": "./taxonomic_assignments/Extended_final_table_September2020_COI_noBlank.xlsx",
+            "@type": "File",
+            "label": "./taxonomic_assignments/Extended_final_table_September2020_COI_noBlank.xlsx"
+        },
+        {
+            "@id": "C:/Users/cedricd/Documents/GitHub/dmbon-assistant/backend/app/workspace/analysis_release_001/taxonomic_assignments/OTUs_ASVs_that_were_removed_modified_because_they_occurred_in_the_blanks.xlsx",
+            "@type": "File",
+            "label": "C:/Users/cedricd/Documents/GitHub/dmbon-assistant/backend/app/workspace/analysis_release_001/taxonomic_assignments/OTUs_ASVs_that_were_removed_modified_because_they_occurred_in_the_blanks.xlsx"
+        },
+        {
+            "@id": "./taxonomic_assignments/README.md",
+            "@type": "File",
+            "label": "./taxonomic_assignments/README.md"
+        },
+        {
+            "@id": "./taxonomic_assignments/Samples_with_no_results.xlsx",
+            "@type": "File",
+            "label": "./taxonomic_assignments/Samples_with_no_results.xlsx"
+        },
+        {
+            "@id": "./taxonomic_assignments/tax_assignments_April2021_COI_noBlank.tsv",
+            "@type": "File",
+            "label": "./taxonomic_assignments/tax_assignments_April2021_COI_noBlank.tsv"
+        },
+        {
+            "@id": "./taxonomic_assignments/tax_assignments_Jan2020_COI_noBlank.tsv",
+            "@type": "File",
+            "label": "./taxonomic_assignments/tax_assignments_Jan2020_COI_noBlank.tsv"
+        },
+        {
+            "@id": "./taxonomic_assignments/tax_assignments_July2019_COI.xlsx",
+            "@type": "File",
+            "label": "./taxonomic_assignments/tax_assignments_July2019_COI.xlsx"
+        },
+        {
+            "@id": "./taxonomic_assignments/tax_assignments_May2021_COI.tsv",
+            "@type": "File",
+            "label": "./taxonomic_assignments/tax_assignments_May2021_COI.tsv"
+        },
+        {
+            "@id": "./taxonomic_assignments/tax_assignments_Sept2020_COI_noBlank.tsv",
+            "@type": "File",
+            "label": "./taxonomic_assignments/tax_assignments_Sept2020_COI_noBlank.tsv"
+        },
+        {
+            "@id": "./LICENSE",
+            "@type": "File",
+            "label": "./LICENSE"
+        },
+        {
+            "@id": "./pema_overview_COI_batch1.xlsx",
+            "@type": "File",
+            "label": "./pema_overview_COI_batch1.xlsx"
+        },
+        {
+            "@id": "./README.md",
+            "@type": "File",
+            "label": "./README.md"
+        }
+    ]
+}
