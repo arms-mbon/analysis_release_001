@@ -17,4 +17,4 @@ The download URL for these files are the following:
 |all_sequences_grouped_September2020_COI.fa| [https://mda.vliz.be/directlink.php?fid=VLIZ_00000615_64e5aec1ce619790794228](https://mda.vliz.be/directlink.php?fid=VLIZ_00000615_64e5aec1ce619790794228) |
 
 Within these files, each row contains an identifier+the DNA sequence. This identifier is also used in the 
-[taxonomic assignment files](https://github.com/arms-mbon/taxonomic_assignments), so you can match the information in these files in this way. Note that the date in the filename refers to the date of processing of those data, rather than the date of the sampling event. 
+[taxonomic assignment files](https://github.com/arms-mbon/analysis_release_001/tree/main/taxonomic_assignments), so you can match the information in these files in this way. Note that the date in the filename refers to the date of processing of those data, rather than the date of the sampling event. 
