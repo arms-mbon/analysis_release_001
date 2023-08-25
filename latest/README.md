@@ -7,7 +7,9 @@ The raw sequences are deposted in [ENA](https://www.ebi.ac.uk/ena/browser/home) 
 The sequences were processed through PEMA after being grouped by gene and by MiSeq sequencing run. Included in this repository are:
 * The parameter files used as input for each PEMA processing run
 * The taxonomic assignment files output by PEMA
-* The fasta files output by PEMA 
+* The fasta files output by PEMA
+
+PEMA was run on sequences grouped by gene and by MiSeq sequencing run, and each group has its own parameter files, taxonomic assignment files, and fasta files. An overview of the processing -- including the material sample IDs, ENA accession numbers, dates and observatories etc -- from which one can identify which samples were processed in which group, is provided as [pema_overview_COI_batch1.xlsx](https://github.com/arms-mbon/analysis_release_001/blob/main/pema_overview_COI_batch1.xlsx). 
 
 The full set of PEMA files (i.e. for all the ARMS-MBON processing we have done) can be found in [ARMS GitHub working space](https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema): this repository is specifically those results published in EurOBIS DOI XXX, from [processing_batch1](https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1).
 
