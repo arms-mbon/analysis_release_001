@@ -26,10 +26,10 @@
                     "@id": "./taxonomic_assignments/Extended_final_table_May2021_COI_noBlank.xlsx"
                 },
                 {
-                    "@id": "/github/workspace/taxonomic_assignments/OTUs_ASVs_that_were_removed_modified_because_they_occurred_in_the_blanks.xlsx"
+                    "@id": "./taxonomic_assignments/tax_assignments_April2021_COI_noBlank.tsv"
                 },
                 {
-                    "@id": "./taxonomic_assignments/tax_assignments_April2021_COI_noBlank.tsv"
+                    "@id": "./taxonomic_assignments/OTUs_ASVs_that_were_removed_modified_because_they_occurred_in_the_blanks.xlsx"
                 },
                 {
                     "@id": "./taxonomic_assignments/Extended_final_table_April2021_COI_noBlank.xlsx"
@@ -186,6 +186,51 @@
             ]
         },
         {
+            "@id": "_:MatthiasObst",
+            "@type": "Person",
+            "name": "Matthias Obst",
+            "email": "matthias.obst@marine.gu.se",
+            "identifier": "https://orcid.org/0000-0003-0264-9631",
+            "label": "_:MatthiasObst"
+        },
+        {
+            "@id": "_:KatrinaExter",
+            "@type": "Person",
+            "name": "Katrina Exter",
+            "email": "katrina.exter@vliz.be",
+            "identifier": "https://orcid.org/0000-0002-5911-1536",
+            "label": "_:KatrinaExter"
+        },
+        {
+            "@id": "_:ChristinaPavloudi",
+            "@type": "Person",
+            "name": "Christina Pavloudi",
+            "email": "cpavloud@hcmr.gr",
+            "identifier": "https://orcid.org/0000-0001-5106-6067",
+            "label": "_:ChristinaPavloudi"
+        },
+        {
+            "@id": "_:ARMSProject",
+            "@type": "Project",
+            "name": "ARMS-MBON",
+            "identifier": "https://arms-mbon.eu",
+            "label": "_:ARMSProject"
+        },
+        {
+            "@id": "_:AssemblePlus",
+            "@type": "Project",
+            "name": "ASSEMBLE Plus",
+            "identifier": "https://cordis.europa.eu/project/id/730984",
+            "label": "_:AssemblePlus"
+        },
+        {
+            "@id": "_:VLIZ",
+            "@type": "Organization",
+            "name": "Flanders Marine Institute",
+            "url": "https://www.vliz.be/en",
+            "label": "_:VLIZ"
+        },
+        {
             "@id": "./taxonomic_assignments/tax_assignments_Jan2020_COI_noBlank.tsv",
             "@type": "File",
             "label": "./taxonomic_assignments/tax_assignments_Jan2020_COI_noBlank.tsv",
@@ -213,11 +258,6 @@
             "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_May2021_COI_noBlank.xlsx"
         },
         {
-            "@id": "/github/workspace/taxonomic_assignments/OTUs_ASVs_that_were_removed_modified_because_they_occurred_in_the_blanks.xlsx",
-            "@type": "File",
-            "label": "/github/workspace/taxonomic_assignments/OTUs_ASVs_that_were_removed_modified_because_they_occurred_in_the_blanks.xlsx"
-        },
-        {
             "@id": "./taxonomic_assignments/tax_assignments_April2021_COI_noBlank.tsv",
             "@type": "File",
             "label": "./taxonomic_assignments/tax_assignments_April2021_COI_noBlank.tsv",
@@ -225,6 +265,11 @@
             "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
             "description": "PEMA output OTU/ASV IDs, full taxonomic classification with their confidence levels, for the COI sequences produced in April 2021",
             "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/tax_assignments_April2021_COI_noBlank.tsv"
+        },
+        {
+            "@id": "./taxonomic_assignments/OTUs_ASVs_that_were_removed_modified_because_they_occurred_in_the_blanks.xlsx",
+            "@type": "File",
+            "label": "./taxonomic_assignments/OTUs_ASVs_that_were_removed_modified_because_they_occurred_in_the_blanks.xlsx"
         },
         {
             "@id": "./taxonomic_assignments/Extended_final_table_April2021_COI_noBlank.xlsx",
@@ -390,45 +435,6 @@
             "@id": "./LICENSE",
             "@type": "File",
             "label": "./LICENSE"
-        },
-        {
-            "@id": "_:MatthiasObst",
-            "@type": "Person",
-            "name": "Matthias Obst",
-            "email": "matthias.obst@marine.gu.se",
-            "identifier": "https://orcid.org/0000-0003-0264-9631"
-        },
-        {
-            "@id": "_:KatrinaExter",
-            "@type": "Person",
-            "name": "Katrina Exter",
-            "email": "katrina.exter@vliz.be",
-            "identifier": "https://orcid.org/0000-0002-5911-1536"
-        },
-        {
-            "@id": "_:ChristinaPavloudi",
-            "@type": "Person",
-            "name": "Christina Pavloudi",
-            "email": "cpavloud@hcmr.gr",
-            "identifier": "https://orcid.org/0000-0001-5106-6067"
-        },
-        {
-            "@id": "_:ARMSProject",
-            "@type": "Project",
-            "name": "ARMS-MBON",
-            "identifier": "https://arms-mbon.eu"
-        },
-        {
-            "@id": "_:AssemblePlus",
-            "@type": "Project",
-            "name": "ASSEMBLE Plus",
-            "identifier": "https://cordis.europa.eu/project/id/730984"
-        },
-        {
-            "@id": "_:VLIZ",
-            "@type": "Organization",
-            "name": "Flanders Marine Institute",
-            "url": "https://www.vliz.be/en"
         }
     ]
 }
