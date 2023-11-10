@@ -11,9 +11,9 @@ The sequences were processed through PEMA after being grouped by gene and by MiS
 * The taxonomic assignment files output by PEMA
 * The fasta files output by PEMA
 
-PEMA was run on sequences grouped by gene and by MiSeq sequencing run, and each group has its own parameter files, taxonomic assignment files, and fasta files. An overview of the processing -- including the material sample IDs, ENA accession numbers, dates and observatories etc -- from which one can identify which samples were processed in which group, is provided as [pema_overview_COI_batch1.xlsx](https://github.com/arms-mbon/analysis_release_001/blob/main/pema_overview_COI_batch1.xlsx). 
+PEMA was run on sequences grouped by gene and by MiSeq sequencing run, and each group has its own parameter files, taxonomic assignment files, and fasta files. An overview of the processing -- including the material sample IDs, ENA accession numbers, dates and observatories etc - from which one can identify which samples were processed in which group, is provided as [pema_overview_COI_batch1.xlsx](https://github.com/arms-mbon/analysis_release_001/blob/main/pema_overview_COI_batch1.xlsx). 
 
-The full set of PEMA files (i.e. for all the ARMS-MBON processing we have done) can be found in [ARMS GitHub working space](https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema): this repository is specifically those results published in EurOBIS DOI XXX, from [processing_batch1](https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1).
+The full set of PEMA files (i.e. for all the ARMS-MBON processing we have done) can be found in [ARMS GitHub working space](https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema): this repository is specifically the subset of those results published in EurOBIS and have been take from [processing_batch1](https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1).
 
 Some of the PEMA processing metadata for these COI runs. Links to all included algorithms and databases can be found in the PEMA URL, as well as HowTos and references.
 | parameter | value |
