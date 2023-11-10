@@ -1,6 +1,8 @@
 # analysis_release_001
 
-[PEMA](https://github.com/hariszaf/pema) is the metabarcoding analysis pipeline we use to process the COI, 18S, and ITS raw sequences obtained from the ARMS-MBON samples. In this repository you will find the bioinformatics results associated with the EurOBIS DOI XXX (still to be created): species identifications from ARMS-MBON data from 2018-2020 for amplicon sequencing of the COI marker gene.
+These are the data files associated with the first ARMS-MBON dataset submitted to EurOBIS ([DOI](https://doi.org/10.14284/620)): species identifications, fasta files, and PEMA parameter files, for the COI marker gene for the events between 2018 and 2020.  
+
+[PEMA](https://github.com/hariszaf/pema) is the metabarcoding analysis pipeline we use to process the COI (and also 18S, and ITS) raw sequences obtained from the ARMS-MBON samples. 
 
 The raw sequences are deposted in [ENA](https://www.ebi.ac.uk/ena/browser/home) and information regarding these can be found in [the data workspace repo](https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data) and with the [SOPs](https://github.com/arms-mbon/documentation/tree/main/standard_operating_procedures). 
 
