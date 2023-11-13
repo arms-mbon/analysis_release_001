@@ -1,4 +1,4 @@
-These are the PEMA parameter files for this first processing batch that was run on the ARMS-MBON sequences, for the samples collected between 2018 and 2020, for the COI gene. 
+These are the PEMA parameter files for this first processing batch that was run on the ARMS-MBON sequences, for the samples collected between 2018 and 2020 (all events that started in 2018 and 2019), for the COI gene. 
 In these parameter files are all the parameters that were set in PEMA. Note that 
 * the date in the filenames refers to the date of the sequencing, rather than the sampling of the material
 * for COI we used the the Midori v2 reference database
