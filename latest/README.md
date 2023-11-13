@@ -1,6 +1,6 @@
 # analysis_release_001
 
-These are the data files associated with the first ARMS-MBON dataset submitted to EurOBIS ([DOI](https://doi.org/10.14284/620)): species identifications, fasta files, and PEMA parameter files, for the COI marker gene for the events between 2018 and 2020.  
+These are the data files associated with the first ARMS-MBON dataset submitted to EurOBIS ([DOI](https://doi.org/10.14284/620)): species identifications, fasta files, and PEMA parameter files, for the COI marker gene for the events between 2018 and 2020 (all events that started in 2018 and 2019).  
 
 [PEMA](https://github.com/hariszaf/pema) is the metabarcoding analysis pipeline we use to process the COI (and also 18S, and ITS) raw sequences obtained from the ARMS-MBON samples. 
 
