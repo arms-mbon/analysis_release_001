@@ -17,7 +17,7 @@ The second chunk of files are the more detailed taxonomic assignements which are
   
 Their filenames contain:
 * the date the samples were sequenced (e.g. April2021)
-* the gene type (COI)
+* the gene type (e.g. COI)
 
 There is also a file indicating which samples produced [no results](https://github.com/arms-mbon/analysis_release_001/tree/main/taxonomic_assignments/Samples_with_no_results.xlsx) 
 and those which [were removed because they occurred in the blanks](https://github.com/arms-mbon/analysis_release_001/tree/main/taxonomic_assignments/OTUs_ASVs%20that%20were%20removed_modified%20because%20they%20occurred%20in%20the%20blanks.xlsx)
