@@ -1,4 +1,4 @@
-Here are the output files containing the taxonomic assignments from the PEMA processing of the ARMS-MBON sequences taken between 2018 and 2020, for the COI gene. 
+Here are the output files containing the taxonomic assignments from the PEMA processing of the ARMS-MBON sequences taken between 2018 and 2020, for the COI, 18S, and ITS marker genes. 
 
 The first chunk of files are "Extended final tables" that contain the following information:
 * an ASV/OTU identifier (these numbers being unique with a single PEMA run)
@@ -8,11 +8,11 @@ The first chunk of files are "Extended final tables" that contain the following 
    
 Their filenames contain:
 * the date the samples were sequenced (e.g. April2021)
-* the gene type (COI)
+* the gene type (e.g. COI)
 * whether or not the blank (sequences) were included
 
-The second chunk of files are the more detailed taxonomic assignements, containing:
-* an ASV/OTU identifier  (these numbers being unique with a single PEMA run; the first part of this ID, before the "_", is included in the ID in the first column of its linked Extended_final_table)
+The second chunk of files are the more detailed taxonomic assignements which are produced only for the COI dataset. These contain:
+* an ASV identifier  (these numbers being unique with a single PEMA run; the first part of this ID, before the "_", is included in the ID in the first column of its linked Extended_final_table)
 * For each node of the taxonomic classification: its name and its confidence level
   
 Their filenames contain:
