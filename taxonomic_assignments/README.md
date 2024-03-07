@@ -8,7 +8,7 @@ The first chunk of files are "Extended final tables" that contain the following 
 
 *PEMA v.2.1.4 was used during this processing phase. In this version, for COI gene sequences, the taxonomic classification in these tables stops at the genus level. The species-level classification is not included in the Extended Final Tables. To obtain species-level classification for COI gene sequences, we used the "tax_assignments" files (see below). These files include detailed classifications beyond the genus level for each ASV provided in the Extended Final Tables.
    
-Their filenames contain:
+The filenames of the extended final tables contain:
 * the date the samples were sequenced (e.g. April2021)
 * the gene type (e.g. COI)
 * whether or not the blank (sequences) were included
