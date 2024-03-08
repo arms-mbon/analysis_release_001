@@ -249,7 +249,7 @@
                 "opsci@vliz.be",
                 "matthias.obst@marine.gu.se"
             ],
-            "description": "The first analysis data release for the ARMS-MBON dataset, associated with the metadata record XXX. These are selected bioinformatics in/outputs from the PEMA processing of the material samples. This repository is the COI subset of the contents of https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1.",
+            "description": "The first analysis-data release for the ARMS-MBON project, for COI, 18S, and ITS. These are selected bioinformatics in/outputs from the PEMA processing of the material samples from 2018 until 2020. ",
             "keywords": [
                 "https://dwc.tdwg.org/terms/#materialsample",
                 "https://schema.org/Dataset",
