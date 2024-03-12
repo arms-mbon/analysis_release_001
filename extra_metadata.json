@@ -21,6 +21,7 @@
         ],
         "description":"The first analysis-data release for the ARMS-MBON project, for COI, 18S, and ITS marker genes. These are selected bioinformatics in/outputs from the PEMA processing of the material samples from 2018 until 2020. ",
         "wasInfluencedBy": "https://github.com/hariszaf/pema/tree/v.2.1.4",
+        "dct:relation":["https://github.com/arms-mbon/data_release_001","https://github.com/arms-mbon/code_release_001"],
         "keywords":[
             "https://dwc.tdwg.org/terms/#materialsample",
             "https://schema.org/Dataset",
