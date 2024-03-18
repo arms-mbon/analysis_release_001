@@ -81,17 +81,14 @@
     "./parameter_files/":{
         "wasDerivedFrom":"https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/parameter_files",
         "description":"The folder contataining the PEMA parameter files",
-        "downloadURL":"https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/",
-        "wasDerivedFrom":"https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/parameter_files"
+        "downloadURL":"https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/"
     },
     "./fasta/":{
         "wasDerivedFrom":"https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/fasta",
         "description":"The README in this folder contains a table with the download URLs to the fasta files for the COI processing",
-        "downloadURL":"https://data.arms-mbon.org/analysis_release_001/latest/#./fasta/",
-        "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/fasta"
+        "downloadURL":"https://data.arms-mbon.org/analysis_release_001/latest/#./fasta/"
     },
     "./taxonomic_assignments/":{
-        "wasDerivedFrom":"https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
         "description":"The folder containing the PEMA output files with taxonomic assignements and ASV/OTUs",
         "downloadURL":"https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/",
         "wasDerivedFrom":"https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments"
