@@ -269,6 +269,51 @@
             ]
         },
         {
+            "@id": "_:MatthiasObst",
+            "@type": "Person",
+            "name": "Matthias Obst",
+            "email": "matthias.obst@marine.gu.se",
+            "identifier": "https://orcid.org/0000-0003-0264-9631",
+            "label": "_:MatthiasObst"
+        },
+        {
+            "@id": "_:KatrinaExter",
+            "@type": "Person",
+            "name": "Katrina Exter",
+            "email": "katrina.exter@vliz.be",
+            "identifier": "https://orcid.org/0000-0002-5911-1536",
+            "label": "_:KatrinaExter"
+        },
+        {
+            "@id": "_:ChristinaPavloudi",
+            "@type": "Person",
+            "name": "Christina Pavloudi",
+            "email": "cpavloud@hcmr.gr",
+            "identifier": "https://orcid.org/0000-0001-5106-6067",
+            "label": "_:ChristinaPavloudi"
+        },
+        {
+            "@id": "_:ARMSProject",
+            "@type": "Project",
+            "name": "ARMS-MBON",
+            "identifier": "https://arms-mbon.eu",
+            "label": "_:ARMSProject"
+        },
+        {
+            "@id": "_:AssemblePlus",
+            "@type": "Project",
+            "name": "ASSEMBLE Plus",
+            "identifier": "https://cordis.europa.eu/project/id/730984",
+            "label": "_:AssemblePlus"
+        },
+        {
+            "@id": "_:VLIZ",
+            "@type": "Organization",
+            "name": "Flanders Marine Institute",
+            "url": "https://www.vliz.be/en",
+            "label": "_:VLIZ"
+        },
+        {
             "@id": "./taxonomic_assignments/README.md",
             "@type": "File",
             "label": "./taxonomic_assignments/README.md"
@@ -695,45 +740,6 @@
             "@id": "./LICENSE",
             "@type": "File",
             "label": "./LICENSE"
-        },
-        {
-            "@id": "_:MatthiasObst",
-            "@type": "Person",
-            "name": "Matthias Obst",
-            "email": "matthias.obst@marine.gu.se",
-            "identifier": "https://orcid.org/0000-0003-0264-9631"
-        },
-        {
-            "@id": "_:KatrinaExter",
-            "@type": "Person",
-            "name": "Katrina Exter",
-            "email": "katrina.exter@vliz.be",
-            "identifier": "https://orcid.org/0000-0002-5911-1536"
-        },
-        {
-            "@id": "_:ChristinaPavloudi",
-            "@type": "Person",
-            "name": "Christina Pavloudi",
-            "email": "cpavloud@hcmr.gr",
-            "identifier": "https://orcid.org/0000-0001-5106-6067"
-        },
-        {
-            "@id": "_:ARMSProject",
-            "@type": "Project",
-            "name": "ARMS-MBON",
-            "identifier": "https://arms-mbon.eu"
-        },
-        {
-            "@id": "_:AssemblePlus",
-            "@type": "Project",
-            "name": "ASSEMBLE Plus",
-            "identifier": "https://cordis.europa.eu/project/id/730984"
-        },
-        {
-            "@id": "_:VLIZ",
-            "@type": "Organization",
-            "name": "Flanders Marine Institute",
-            "url": "https://www.vliz.be/en"
         }
     ]
 }
