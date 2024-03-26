@@ -1,5 +1,5 @@
 The fasta files as output from PEMA processing for batch1 (see folder above for details on the batch1 processing). 
-Within these files, each row contains an identifier+the DNA sequence. This identifier is also used in the [taxonomic assignment files](https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments), so you can match the information in these files in this way. Note that the date in the filename refers to the date of sequencing, rather than the date of the sampling event.
+Within these files, each row contains an identifier+the DNA sequence. This identifier is also used in the [taxonomic assignment files](https://github.com/arms-mbon/analysis_release_001/tree/main/taxonomic_assignments), so you can match the information in these files in this way. Note that the date in the filename refers to the date of sequencing, rather than the date of the sampling event.
 
 For COI:
 * The files called __all_samples_xxx__ contain all the sequences inferred in all samples. The sequence identifiers are of the format __ID;size=readAbundance__. These are the input files for the clustering algorithm.
