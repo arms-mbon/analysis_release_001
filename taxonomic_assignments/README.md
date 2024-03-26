@@ -1,4 +1,4 @@
-Here are the output files containing read count tables and taxonomic assignments from the PEMA processing of the ARMS-MBON sequence data. 
+Here are the output files containing read count tables and taxonomic assignments from the PEMA processing of the ARMS-MBON sequence data. The files are the basis for processing of genetic data and EuroBIS submissions of data_release_001.
 
 The __Extended_final_table__ files contain the following information:
 
