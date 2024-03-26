@@ -1,11 +1,20 @@
-Here are the fasta files as output from the PEMA processing of the ARMS-MBON sequences taken between 2018 and 2020, for the COI, 18S, and ITS marker genes.
-Within these files, each row contains an identifier+the DNA sequence. This identifier is also used in the [taxonomic assignment files](https://github.com/arms-mbon/analysis_release_001/tree/main/taxonomic_assignments), so you can match the information in these files in this way. Note that the date in the filename refers to the date of sequencing, rather than the date of the sampling event.
+The fasta files as output from PEMA processing for batch1 (see folder above for details on the batch1 processing). 
+Within these files, each row contains an identifier+the DNA sequence. This identifier is also used in the [taxonomic assignment files](https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments), so you can match the information in these files in this way. Note that the date in the filename refers to the date of sequencing, rather than the date of the sampling event.
 
-* The files called all_samples_xxx: contain all the sequences found in all samples and their respective unique identifiers based on abundances and sequences. This is the main input file for all clustering algorithms
-* The files called all_sequences_grouped_xxx: contain the sequences, their abundances and identifiers after chimera removal and clustering
-* The files called Aligned_assignments_xxx: contain two lines per ASV/OTU, the first is the identifier followed by the taxonomy, the second is the sequence
-* The files called final_all_samples_xxx: contain individual sample files (.fasta) but only with the sequences that remained after the quality control and the pre-processing steps; thess are used to form a single .fasta (“final_all_samples.fasta”). This is the file PEMA uses from this point onwards for the clustering and taxonomy assignment steps. 
+For COI:
+* The files called __all_samples_xxx__ contain all the sequences inferred in all samples. The sequence identifiers are of the format __ID;size=readAbundance__. These are the input files for the clustering algorithm.
+* The files called __all_sequences_grouped_xxx__ contain the sequences remaining after chimera removal and clustering. The sequence identifiers are of the format __ID_readAbundance__.
 
+For 18S:
+* The files called __final_all_samples_xxx__ contain all the sequences inferred in all samples. The sequence identifiers are of the format __ID_readAbundance__. These are the input files for the clustering algorithm.
+* The files called __all_sequences_grouped_xxx__ contain contain the sequences remaining after chimera removal and clustering. The sequence identifiers are of the format __OtuXY__.
+* The files called __Aligned_assignments_xxx__ contain clustered sequences which could be assigned to any taxonomic level. The sequence identifiers are of the format __OtuXY__ __Main genome; Eukaryota;etc.__
+
+For ITS:
+* The files called __all_samples_xxx__ contain all the sequences inferred in all samples. The sequence identifiers are of the format __ID;size=readAbundance__. These are the input files for the clustering algorithm.
+* The files called __all_sequences_grouped_xxx__ contain the sequences remaining after chimera removal and clustering. Because there was an error within PEMA at the time of usage regarding the sequence identifier format for ITS runs, the sequence identifiers in these files are of the format __OtuXY__. However, these sequences represent ASVs clustered with Swarm v2.
+* The files called __Aligned_assignments_xxx__ contain clustered sequences which could be assigned to any taxonomic level. The sequence identifiers are of the format __OtuXY__ __Cellular__ __organisms; Eukaryota;etc.__ Because of the previously mentioned error, the sequences are called OTUs, even though they represent ASVs clustered with Swarm v2.
+  
 The files are too large to store here in GitHub, so they have been placed in the Marine Data Archive for access. 
 The download URL for these files are the following:
 
