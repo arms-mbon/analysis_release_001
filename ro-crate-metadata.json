@@ -32,9 +32,6 @@
                     "@id": "./taxonomic_assignments/Extended_final_table_January2022_18S_noBlank.xlsx"
                 },
                 {
-                    "@id": "./taxonomic_assignments/abc.txt"
-                },
-                {
                     "@id": "./taxonomic_assignments/Extended_final_table_September2020_18S_noBlank.xlsx"
                 },
                 {
@@ -356,11 +353,6 @@
             "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
             "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the 18S sequences produced in January 2022",
             "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_January2022_18S_noBlank.xlsx"
-        },
-        {
-            "@id": "./taxonomic_assignments/abc.txt",
-            "@type": "File",
-            "label": "./taxonomic_assignments/abc.txt"
         },
         {
             "@id": "./taxonomic_assignments/Extended_final_table_September2020_18S_noBlank.xlsx",
