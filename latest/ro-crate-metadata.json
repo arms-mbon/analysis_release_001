@@ -740,6 +740,13 @@
             "@id": "./LICENSE",
             "@type": "File",
             "label": "./LICENSE"
+        },
+        {
+            "@id": "_:HarisZafeiropoulos",
+            "@type": "Person",
+            "name": "Haris Zafeiropoulos",
+            "email": "haris.zafr@gmail.com",
+            "identifier": "https://orcid.org/0000-0002-4405-6802"
         }
     ]
 }
