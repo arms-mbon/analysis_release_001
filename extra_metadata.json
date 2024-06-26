@@ -43,7 +43,7 @@
             "https://vocabularyserver.com/asfa/index.php?tema=2146&/biology",
             "https://vocabularyserver.com/asfa/index.php?tema=1150&/marine-environment",
             "https://vocabularyserver.com/asfa/index.php?tema=2365&/genetics"
-        ]
+        ],
         "temporal":{
             "start":"2018-07-01",
             "end":"2020-12-11"
