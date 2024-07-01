@@ -12,6 +12,73 @@
             }
         },
         {
+            "@id": "./parameter_files/",
+            "@type": "Dataset",
+            "label": "./parameter_files/",
+            "hasPart": [
+                {
+                    "@id": "./parameter_files/parameters0f.COI_Jan2020.tsv"
+                },
+                {
+                    "@id": "./parameter_files/parameters0f.18S_May2021.tsv"
+                },
+                {
+                    "@id": "./parameter_files/parameters0f.18S_July2019.tsv"
+                },
+                {
+                    "@id": "./parameter_files/parameters0f.18S_Aug2023.tsv"
+                },
+                {
+                    "@id": "./parameter_files/README.md"
+                },
+                {
+                    "@id": "./parameter_files/parameters0f.ITS_April2021.tsv"
+                },
+                {
+                    "@id": "./parameter_files/parameters0f.18S_Jan2020.tsv"
+                },
+                {
+                    "@id": "./parameter_files/parameters0f.COI_Sept2020.tsv"
+                },
+                {
+                    "@id": "./parameter_files/parameters0f.COI_April2021.tsv"
+                },
+                {
+                    "@id": "./parameter_files/parameters0f.COI_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO.tsv"
+                },
+                {
+                    "@id": "./parameter_files/parameters0f.COI_Jul2019.tsv"
+                },
+                {
+                    "@id": "./parameter_files/parameters0f.18S_Sept2020.tsv"
+                },
+                {
+                    "@id": "./parameter_files/parameters0f.COI_Jan2022.tsv"
+                },
+                {
+                    "@id": "./parameter_files/parameters0f.COI_May2021.tsv"
+                },
+                {
+                    "@id": "./parameter_files/parameters0f.18S_Jan2022.tsv"
+                },
+                {
+                    "@id": "./parameter_files/parameters0f.COI_Aug2023.tsv"
+                },
+                {
+                    "@id": "./parameter_files/parameters0f.18S_April2021.tsv"
+                },
+                {
+                    "@id": "./parameter_files/parameters0f.ITS_July2019.tsv"
+                },
+                {
+                    "@id": "./parameter_files/parameters0f.18S_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO.tsv"
+                }
+            ],
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/parameter_files",
+            "description": "The folder contataining the PEMA parameter files",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/"
+        },
+        {
             "@id": "./fasta/",
             "@type": "Dataset",
             "label": "./fasta/",
@@ -25,163 +92,96 @@
             "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./fasta/"
         },
         {
-            "@id": "./parameter_files/",
-            "@type": "Dataset",
-            "label": "./parameter_files/",
-            "hasPart": [
-                {
-                    "@id": "./parameter_files/parameters0f.18S_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO.tsv"
-                },
-                {
-                    "@id": "./parameter_files/parameters0f.18S_July2019.tsv"
-                },
-                {
-                    "@id": "./parameter_files/parameters0f.18S_April2021.tsv"
-                },
-                {
-                    "@id": "./parameter_files/parameters0f.ITS_April2021.tsv"
-                },
-                {
-                    "@id": "./parameter_files/parameters0f.COI_Jan2022.tsv"
-                },
-                {
-                    "@id": "./parameter_files/parameters0f.COI_Aug2023.tsv"
-                },
-                {
-                    "@id": "./parameter_files/parameters0f.18S_Sept2020.tsv"
-                },
-                {
-                    "@id": "./parameter_files/parameters0f.18S_May2021.tsv"
-                },
-                {
-                    "@id": "./parameter_files/parameters0f.ITS_July2019.tsv"
-                },
-                {
-                    "@id": "./parameter_files/parameters0f.18S_Aug2023.tsv"
-                },
-                {
-                    "@id": "./parameter_files/parameters0f.COI_Sept2020.tsv"
-                },
-                {
-                    "@id": "./parameter_files/parameters0f.COI_April2021.tsv"
-                },
-                {
-                    "@id": "./parameter_files/parameters0f.18S_Jan2022.tsv"
-                },
-                {
-                    "@id": "./parameter_files/parameters0f.18S_Jan2020.tsv"
-                },
-                {
-                    "@id": "./parameter_files/README.md"
-                },
-                {
-                    "@id": "./parameter_files/parameters0f.COI_May2021.tsv"
-                },
-                {
-                    "@id": "./parameter_files/parameters0f.COI_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO.tsv"
-                },
-                {
-                    "@id": "./parameter_files/parameters0f.COI_Jan2020.tsv"
-                },
-                {
-                    "@id": "./parameter_files/parameters0f.COI_Jul2019.tsv"
-                }
-            ],
-            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/parameter_files",
-            "description": "The folder contataining the PEMA parameter files",
-            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/"
-        },
-        {
             "@id": "./taxonomic_assignments/",
             "@type": "Dataset",
             "label": "./taxonomic_assignments/",
             "hasPart": [
                 {
-                    "@id": "./taxonomic_assignments/Extended_final_table_January2020_18S_noBlank_TaxonomyCurated.csv"
-                },
-                {
-                    "@id": "./taxonomic_assignments/tax_assignments_August2023_COI_noBlank.tsv"
-                },
-                {
-                    "@id": "./taxonomic_assignments/OTUs_ASVs_that_were_removed_modified_because_they_occurred_in_the_blanks.xlsx"
-                },
-                {
-                    "@id": "./taxonomic_assignments/tax_assignments_April2021_COI_noBlank.tsv"
-                },
-                {
-                    "@id": "./taxonomic_assignments/Extended_final_table_July2019_COI_noBlank_TaxonomyFull.csv"
-                },
-                {
-                    "@id": "./taxonomic_assignments/Extended_final_table_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO_COI_noBlank_TaxonomyFull.csv"
-                },
-                {
-                    "@id": "./taxonomic_assignments/Extended_final_table_April2021_COI_noBlank_TaxonomyFull.csv"
-                },
-                {
-                    "@id": "./taxonomic_assignments/tax_assignments_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO_COI_noBlank.tsv"
-                },
-                {
-                    "@id": "./taxonomic_assignments/Extended_final_table_September2020_18S_noBlank_TaxonomyCurated.csv"
-                },
-                {
-                    "@id": "./taxonomic_assignments/Extended_final_table_January2022_COI_noBlank_TaxonomyFull.csv"
-                },
-                {
-                    "@id": "./taxonomic_assignments/tax_assignments_January2020_COI_noBlank.tsv"
-                },
-                {
-                    "@id": "./taxonomic_assignments/Extended_final_table_May2021_18S_noBlank_TaxonomyCurated.csv"
-                },
-                {
-                    "@id": "./taxonomic_assignments/tax_assignments_January2022_COI_noBlank.tsv"
-                },
-                {
-                    "@id": "./taxonomic_assignments/Extended_final_table_April2021_ITS_noBlank.xlsx"
-                },
-                {
-                    "@id": "./taxonomic_assignments/tax_assignments_September2020_COI_noBlank.tsv"
-                },
-                {
-                    "@id": "./taxonomic_assignments/Extended_final_table_July2019_18S_noBlank_TaxonomyCurated.csv"
-                },
-                {
-                    "@id": "./taxonomic_assignments/Extended_final_table_January2020_COI_noBlank_TaxonomyFull.csv"
-                },
-                {
-                    "@id": "./taxonomic_assignments/Samples_with_no_results.xlsx"
-                },
-                {
-                    "@id": "./taxonomic_assignments/Extended_final_table_May2021_COI_noBlank_TaxonomyFull.csv"
-                },
-                {
                     "@id": "./taxonomic_assignments/tax_assignments_July2019_COI_noBlank.tsv"
-                },
-                {
-                    "@id": "./taxonomic_assignments/README.md"
-                },
-                {
-                    "@id": "./taxonomic_assignments/Extended_final_table_August2023_18S_noBlank_TaxonomyCurated.csv"
-                },
-                {
-                    "@id": "./taxonomic_assignments/Extended_final_table_September2020_COI_noBlank_TaxonomyFull.csv"
-                },
-                {
-                    "@id": "./taxonomic_assignments/Extended_final_table_July2019_ITS_noBlank.xlsx"
-                },
-                {
-                    "@id": "./taxonomic_assignments/tax_assignments_May2021_COI_noBlank.tsv"
-                },
-                {
-                    "@id": "./taxonomic_assignments/Extended_final_table_January2022_18S_noBlank_TaxonomyCurated.csv"
                 },
                 {
                     "@id": "./taxonomic_assignments/Extended_final_table_August2023_COI_noBlank_TaxonomyFull.csv"
                 },
                 {
-                    "@id": "./taxonomic_assignments/Extended_final_table_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO_18S_noBlank_TaxonomyCurated.csv"
+                    "@id": "./taxonomic_assignments/Extended_final_table_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO_COI_noBlank_TaxonomyFull.csv"
+                },
+                {
+                    "@id": "./taxonomic_assignments/Extended_final_table_May2021_18S_noBlank_TaxonomyCurated.csv"
+                },
+                {
+                    "@id": "./taxonomic_assignments/Extended_final_table_July2019_18S_noBlank_TaxonomyCurated.csv"
+                },
+                {
+                    "@id": "./taxonomic_assignments/Extended_final_table_January2022_18S_noBlank_TaxonomyCurated.csv"
+                },
+                {
+                    "@id": "./taxonomic_assignments/Extended_final_table_July2019_ITS_noBlank.xlsx"
                 },
                 {
                     "@id": "./taxonomic_assignments/Extended_final_table_April2021_18S_noBlank_TaxonomyCurated.csv"
+                },
+                {
+                    "@id": "./taxonomic_assignments/README.md"
+                },
+                {
+                    "@id": "./taxonomic_assignments/tax_assignments_January2022_COI_noBlank.tsv"
+                },
+                {
+                    "@id": "./taxonomic_assignments/Extended_final_table_April2021_COI_noBlank_TaxonomyFull.csv"
+                },
+                {
+                    "@id": "./taxonomic_assignments/Extended_final_table_July2019_COI_noBlank_TaxonomyFull.csv"
+                },
+                {
+                    "@id": "./taxonomic_assignments/tax_assignments_August2023_COI_noBlank.tsv"
+                },
+                {
+                    "@id": "./taxonomic_assignments/Extended_final_table_May2021_COI_noBlank_TaxonomyFull.csv"
+                },
+                {
+                    "@id": "./taxonomic_assignments/Extended_final_table_August2023_18S_noBlank_TaxonomyCurated.csv"
+                },
+                {
+                    "@id": "./taxonomic_assignments/Samples_with_no_results.xlsx"
+                },
+                {
+                    "@id": "./taxonomic_assignments/OTUs_ASVs_that_were_removed_modified_because_they_occurred_in_the_blanks.xlsx"
+                },
+                {
+                    "@id": "./taxonomic_assignments/tax_assignments_May2021_COI_noBlank.tsv"
+                },
+                {
+                    "@id": "./taxonomic_assignments/Extended_final_table_January2020_18S_noBlank_TaxonomyCurated.csv"
+                },
+                {
+                    "@id": "./taxonomic_assignments/tax_assignments_January2020_COI_noBlank.tsv"
+                },
+                {
+                    "@id": "./taxonomic_assignments/tax_assignments_April2021_COI_noBlank.tsv"
+                },
+                {
+                    "@id": "./taxonomic_assignments/Extended_final_table_January2020_COI_noBlank_TaxonomyFull.csv"
+                },
+                {
+                    "@id": "./taxonomic_assignments/tax_assignments_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO_COI_noBlank.tsv"
+                },
+                {
+                    "@id": "./taxonomic_assignments/Extended_final_table_September2020_COI_noBlank_TaxonomyFull.csv"
+                },
+                {
+                    "@id": "./taxonomic_assignments/Extended_final_table_January2022_COI_noBlank_TaxonomyFull.csv"
+                },
+                {
+                    "@id": "./taxonomic_assignments/Extended_final_table_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO_18S_noBlank_TaxonomyCurated.csv"
+                },
+                {
+                    "@id": "./taxonomic_assignments/Extended_final_table_April2021_ITS_noBlank.xlsx"
+                },
+                {
+                    "@id": "./taxonomic_assignments/Extended_final_table_September2020_18S_noBlank_TaxonomyCurated.csv"
+                },
+                {
+                    "@id": "./taxonomic_assignments/tax_assignments_September2020_COI_noBlank.tsv"
                 }
             ],
             "description": "The folder containing the PEMA output files with taxonomic assignements and ASV/OTUs",
@@ -194,19 +194,19 @@
             "label": "./",
             "hasPart": [
                 {
-                    "@id": "./fasta/"
+                    "@id": "./parameter_files/"
                 },
                 {
-                    "@id": "./parameter_files/"
+                    "@id": "./fasta/"
                 },
                 {
                     "@id": "./taxonomic_assignments/"
                 },
                 {
-                    "@id": "./pema_overview_batch1.xlsx"
+                    "@id": "./config.yml"
                 },
                 {
-                    "@id": "./config.yml"
+                    "@id": "./pema_overview_batch1.xlsx"
                 },
                 {
                     "@id": "./LICENSE"
@@ -857,68 +857,13 @@
             "label": "_:HarisZafeiropoulos"
         },
         {
-            "@id": "./fasta/README.md",
+            "@id": "./parameter_files/parameters0f.COI_Jan2020.tsv",
             "@type": "File",
-            "label": "./fasta/README.md"
-        },
-        {
-            "@id": "./parameter_files/parameters0f.18S_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO.tsv",
-            "@type": "File",
-            "label": "./parameter_files/parameters0f.18S_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO.tsv",
+            "label": "./parameter_files/parameters0f.COI_Jan2020.tsv",
             "fileFormat": "https://www.iana.org/assignments/media-types/text/tab-separated-values",
             "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/parameter_files",
-            "description": "PEMA parameter files for 18S processing for one Gdynia sample",
-            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/parameters0f.18S_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO.tsv"
-        },
-        {
-            "@id": "./parameter_files/parameters0f.18S_July2019.tsv",
-            "@type": "File",
-            "label": "./parameter_files/parameters0f.18S_July2019.tsv",
-            "fileFormat": "https://www.iana.org/assignments/media-types/text/tab-separated-values",
-            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/parameter_files",
-            "description": "PEMA parameter files for 18S processing in July 2019",
-            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/parameters0f.18S_July2019.tsv"
-        },
-        {
-            "@id": "./parameter_files/parameters0f.18S_April2021.tsv",
-            "@type": "File",
-            "label": "./parameter_files/parameters0f.18S_April2021.tsv",
-            "fileFormat": "https://www.iana.org/assignments/media-types/text/tab-separated-values",
-            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/parameter_files",
-            "description": "PEMA parameter files for 18S processing in April 2021",
-            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/parameters0f.18S_April2021.tsv"
-        },
-        {
-            "@id": "./parameter_files/parameters0f.ITS_April2021.tsv",
-            "@type": "File",
-            "label": "./parameter_files/parameters0f.ITS_April2021.tsv",
-            "fileFormat": "https://www.iana.org/assignments/media-types/text/tab-separated-values",
-            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/parameter_files",
-            "description": "PEMA parameter files for ITS processing in April 2021",
-            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/parameters0f.ITS_April2021.tsv"
-        },
-        {
-            "@id": "./parameter_files/parameters0f.COI_Jan2022.tsv",
-            "@type": "File",
-            "label": "./parameter_files/parameters0f.COI_Jan2022.tsv",
-            "fileFormat": "https://www.iana.org/assignments/media-types/text/tab-separated-values",
-            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/parameter_files",
-            "description": "PEMA parameter files for COI processing in Jan2022",
-            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/parameters0f.COI_Jan2022.tsv"
-        },
-        {
-            "@id": "./parameter_files/parameters0f.COI_Aug2023.tsv",
-            "@type": "File",
-            "label": "./parameter_files/parameters0f.COI_Aug2023.tsv",
-            "fileFormat": "https://www.iana.org/assignments/media-types/text/tab-separated-values",
-            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/parameter_files",
-            "description": "PEMA parameter files for COI processing in Aug. 2023",
-            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/parameters0f.COI_Aug2023.tsv"
-        },
-        {
-            "@id": "./parameter_files/parameters0f.18S_Sept2020.tsv",
-            "@type": "File",
-            "label": "./parameter_files/parameters0f.18S_Sept2020.tsv"
+            "description": "PEMA parameter files for COI processing in Jan2020",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/parameters0f.COI_Jan2020.tsv"
         },
         {
             "@id": "./parameter_files/parameters0f.18S_May2021.tsv",
@@ -930,13 +875,13 @@
             "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/parameters0f.18S_May2021.tsv"
         },
         {
-            "@id": "./parameter_files/parameters0f.ITS_July2019.tsv",
+            "@id": "./parameter_files/parameters0f.18S_July2019.tsv",
             "@type": "File",
-            "label": "./parameter_files/parameters0f.ITS_July2019.tsv",
+            "label": "./parameter_files/parameters0f.18S_July2019.tsv",
             "fileFormat": "https://www.iana.org/assignments/media-types/text/tab-separated-values",
             "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/parameter_files",
-            "description": "PEMA parameter files for ITS processing in July 2019",
-            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/parameters0f.ITS_July2019.tsv"
+            "description": "PEMA parameter files for 18S processing in July 2019",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/parameters0f.18S_July2019.tsv"
         },
         {
             "@id": "./parameter_files/parameters0f.18S_Aug2023.tsv",
@@ -946,6 +891,29 @@
             "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/parameter_files",
             "description": "PEMA parameter files for 18S processing in Aug. 2023",
             "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/parameters0f.18S_Aug2023.tsv"
+        },
+        {
+            "@id": "./parameter_files/README.md",
+            "@type": "File",
+            "label": "./parameter_files/README.md"
+        },
+        {
+            "@id": "./parameter_files/parameters0f.ITS_April2021.tsv",
+            "@type": "File",
+            "label": "./parameter_files/parameters0f.ITS_April2021.tsv",
+            "fileFormat": "https://www.iana.org/assignments/media-types/text/tab-separated-values",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/parameter_files",
+            "description": "PEMA parameter files for ITS processing in April 2021",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/parameters0f.ITS_April2021.tsv"
+        },
+        {
+            "@id": "./parameter_files/parameters0f.18S_Jan2020.tsv",
+            "@type": "File",
+            "label": "./parameter_files/parameters0f.18S_Jan2020.tsv",
+            "fileFormat": "https://www.iana.org/assignments/media-types/text/tab-separated-values",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/parameter_files",
+            "description": "PEMA parameter files for 18S processing in Jan. 2020",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/parameters0f.18S_Jan2020.tsv"
         },
         {
             "@id": "./parameter_files/parameters0f.COI_Sept2020.tsv",
@@ -966,38 +934,6 @@
             "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/parameters0f.COI_April2021.tsv"
         },
         {
-            "@id": "./parameter_files/parameters0f.18S_Jan2022.tsv",
-            "@type": "File",
-            "label": "./parameter_files/parameters0f.18S_Jan2022.tsv",
-            "fileFormat": "https://www.iana.org/assignments/media-types/text/tab-separated-values",
-            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/parameter_files",
-            "description": "PEMA parameter files for 18S processing in Jan. 2022",
-            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/parameters0f.18S_Jan2022.tsv"
-        },
-        {
-            "@id": "./parameter_files/parameters0f.18S_Jan2020.tsv",
-            "@type": "File",
-            "label": "./parameter_files/parameters0f.18S_Jan2020.tsv",
-            "fileFormat": "https://www.iana.org/assignments/media-types/text/tab-separated-values",
-            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/parameter_files",
-            "description": "PEMA parameter files for 18S processing in Jan. 2020",
-            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/parameters0f.18S_Jan2020.tsv"
-        },
-        {
-            "@id": "./parameter_files/README.md",
-            "@type": "File",
-            "label": "./parameter_files/README.md"
-        },
-        {
-            "@id": "./parameter_files/parameters0f.COI_May2021.tsv",
-            "@type": "File",
-            "label": "./parameter_files/parameters0f.COI_May2021.tsv",
-            "fileFormat": "https://www.iana.org/assignments/media-types/text/tab-separated-values",
-            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/parameter_files",
-            "description": "PEMA parameter files for COI processing in May2021",
-            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/parameters0f.COI_May2021.tsv"
-        },
-        {
             "@id": "./parameter_files/parameters0f.COI_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO.tsv",
             "@type": "File",
             "label": "./parameter_files/parameters0f.COI_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO.tsv",
@@ -1005,15 +941,6 @@
             "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/parameter_files",
             "description": "PEMA parameter files for COI processing for one Gdynia sample",
             "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/parameters0f.COI_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO.tsv"
-        },
-        {
-            "@id": "./parameter_files/parameters0f.COI_Jan2020.tsv",
-            "@type": "File",
-            "label": "./parameter_files/parameters0f.COI_Jan2020.tsv",
-            "fileFormat": "https://www.iana.org/assignments/media-types/text/tab-separated-values",
-            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/parameter_files",
-            "description": "PEMA parameter files for COI processing in Jan2020",
-            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/parameters0f.COI_Jan2020.tsv"
         },
         {
             "@id": "./parameter_files/parameters0f.COI_Jul2019.tsv",
@@ -1025,45 +952,87 @@
             "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/parameters0f.COI_Jul2019.tsv"
         },
         {
-            "@id": "./taxonomic_assignments/Extended_final_table_January2020_18S_noBlank_TaxonomyCurated.csv",
+            "@id": "./parameter_files/parameters0f.18S_Sept2020.tsv",
             "@type": "File",
-            "label": "./taxonomic_assignments/Extended_final_table_January2020_18S_noBlank_TaxonomyCurated.csv",
-            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
-            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the 18S sequences produced in January 2020",
-            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_January2020_18S_noBlank_TaxonomyCurated.csv"
+            "label": "./parameter_files/parameters0f.18S_Sept2020.tsv"
         },
         {
-            "@id": "./taxonomic_assignments/tax_assignments_August2023_COI_noBlank.tsv",
+            "@id": "./parameter_files/parameters0f.COI_Jan2022.tsv",
             "@type": "File",
-            "label": "./taxonomic_assignments/tax_assignments_August2023_COI_noBlank.tsv",
+            "label": "./parameter_files/parameters0f.COI_Jan2022.tsv",
             "fileFormat": "https://www.iana.org/assignments/media-types/text/tab-separated-values",
-            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
-            "description": "PEMA output OTU/ASV IDs, full taxonomic classification with their confidence levels, for the COI sequences produced in Aug. 2023",
-            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/tax_assignments_August2023_COI_noBlank.tsv"
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/parameter_files",
+            "description": "PEMA parameter files for COI processing in Jan2022",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/parameters0f.COI_Jan2022.tsv"
         },
         {
-            "@id": "./taxonomic_assignments/OTUs_ASVs_that_were_removed_modified_because_they_occurred_in_the_blanks.xlsx",
+            "@id": "./parameter_files/parameters0f.COI_May2021.tsv",
             "@type": "File",
-            "label": "./taxonomic_assignments/OTUs_ASVs_that_were_removed_modified_because_they_occurred_in_the_blanks.xlsx"
-        },
-        {
-            "@id": "./taxonomic_assignments/tax_assignments_April2021_COI_noBlank.tsv",
-            "@type": "File",
-            "label": "./taxonomic_assignments/tax_assignments_April2021_COI_noBlank.tsv",
+            "label": "./parameter_files/parameters0f.COI_May2021.tsv",
             "fileFormat": "https://www.iana.org/assignments/media-types/text/tab-separated-values",
-            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
-            "description": "PEMA output OTU/ASV IDs, full taxonomic classification with their confidence levels, for the COI sequences produced in April 2021",
-            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/tax_assignments_April2021_COI_noBlank.tsv"
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/parameter_files",
+            "description": "PEMA parameter files for COI processing in May2021",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/parameters0f.COI_May2021.tsv"
         },
         {
-            "@id": "./taxonomic_assignments/Extended_final_table_July2019_COI_noBlank_TaxonomyFull.csv",
+            "@id": "./parameter_files/parameters0f.18S_Jan2022.tsv",
             "@type": "File",
-            "label": "./taxonomic_assignments/Extended_final_table_July2019_COI_noBlank_TaxonomyFull.csv",
-            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
-            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the COI sequences produced in July 2019",
-            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_July2019_COI_noBlank_TaxonomyFull.csv"
+            "label": "./parameter_files/parameters0f.18S_Jan2022.tsv",
+            "fileFormat": "https://www.iana.org/assignments/media-types/text/tab-separated-values",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/parameter_files",
+            "description": "PEMA parameter files for 18S processing in Jan. 2022",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/parameters0f.18S_Jan2022.tsv"
+        },
+        {
+            "@id": "./parameter_files/parameters0f.COI_Aug2023.tsv",
+            "@type": "File",
+            "label": "./parameter_files/parameters0f.COI_Aug2023.tsv",
+            "fileFormat": "https://www.iana.org/assignments/media-types/text/tab-separated-values",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/parameter_files",
+            "description": "PEMA parameter files for COI processing in Aug. 2023",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/parameters0f.COI_Aug2023.tsv"
+        },
+        {
+            "@id": "./parameter_files/parameters0f.18S_April2021.tsv",
+            "@type": "File",
+            "label": "./parameter_files/parameters0f.18S_April2021.tsv",
+            "fileFormat": "https://www.iana.org/assignments/media-types/text/tab-separated-values",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/parameter_files",
+            "description": "PEMA parameter files for 18S processing in April 2021",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/parameters0f.18S_April2021.tsv"
+        },
+        {
+            "@id": "./parameter_files/parameters0f.ITS_July2019.tsv",
+            "@type": "File",
+            "label": "./parameter_files/parameters0f.ITS_July2019.tsv",
+            "fileFormat": "https://www.iana.org/assignments/media-types/text/tab-separated-values",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/parameter_files",
+            "description": "PEMA parameter files for ITS processing in July 2019",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/parameters0f.ITS_July2019.tsv"
+        },
+        {
+            "@id": "./parameter_files/parameters0f.18S_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO.tsv",
+            "@type": "File",
+            "label": "./parameter_files/parameters0f.18S_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO.tsv",
+            "fileFormat": "https://www.iana.org/assignments/media-types/text/tab-separated-values",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/parameter_files",
+            "description": "PEMA parameter files for 18S processing for one Gdynia sample",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/parameters0f.18S_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO.tsv"
+        },
+        {
+            "@id": "./fasta/README.md",
+            "@type": "File",
+            "label": "./fasta/README.md"
+        },
+        {
+            "@id": "./taxonomic_assignments/tax_assignments_July2019_COI_noBlank.tsv",
+            "@type": "File",
+            "label": "./taxonomic_assignments/tax_assignments_July2019_COI_noBlank.tsv"
+        },
+        {
+            "@id": "./taxonomic_assignments/Extended_final_table_August2023_COI_noBlank_TaxonomyFull.csv",
+            "@type": "File",
+            "label": "./taxonomic_assignments/Extended_final_table_August2023_COI_noBlank_TaxonomyFull.csv"
         },
         {
             "@id": "./taxonomic_assignments/Extended_final_table_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO_COI_noBlank_TaxonomyFull.csv",
@@ -1075,47 +1044,6 @@
             "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO_COI_noBlank_TaxonomyFull.csv"
         },
         {
-            "@id": "./taxonomic_assignments/Extended_final_table_April2021_COI_noBlank_TaxonomyFull.csv",
-            "@type": "File",
-            "label": "./taxonomic_assignments/Extended_final_table_April2021_COI_noBlank_TaxonomyFull.csv",
-            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
-            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the COI sequences produced in April 2021",
-            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_April2021_COI_noBlank_TaxonomyFull.csv"
-        },
-        {
-            "@id": "./taxonomic_assignments/tax_assignments_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO_COI_noBlank.tsv",
-            "@type": "File",
-            "label": "./taxonomic_assignments/tax_assignments_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO_COI_noBlank.tsv",
-            "fileFormat": "https://www.iana.org/assignments/media-types/text/tab-separated-values",
-            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
-            "description": "PEMA output OTU/ASV IDs, full taxonomic classification with their confidence levels, for the COI sequences produced for Gydnia",
-            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/tax_assignments_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO_COI_noBlank.tsv"
-        },
-        {
-            "@id": "./taxonomic_assignments/Extended_final_table_September2020_18S_noBlank_TaxonomyCurated.csv",
-            "@type": "File",
-            "label": "./taxonomic_assignments/Extended_final_table_September2020_18S_noBlank_TaxonomyCurated.csv",
-            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
-            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the 18S sequences produced in September 2020",
-            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_September2020_18S_noBlank_TaxonomyCurated.csv"
-        },
-        {
-            "@id": "./taxonomic_assignments/Extended_final_table_January2022_COI_noBlank_TaxonomyFull.csv",
-            "@type": "File",
-            "label": "./taxonomic_assignments/Extended_final_table_January2022_COI_noBlank_TaxonomyFull.csv",
-            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
-            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the COI sequences produced in January 2022",
-            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_January2022_COI_noBlank_TaxonomyFull.csv"
-        },
-        {
-            "@id": "./taxonomic_assignments/tax_assignments_January2020_COI_noBlank.tsv",
-            "@type": "File",
-            "label": "./taxonomic_assignments/tax_assignments_January2020_COI_noBlank.tsv"
-        },
-        {
             "@id": "./taxonomic_assignments/Extended_final_table_May2021_18S_noBlank_TaxonomyCurated.csv",
             "@type": "File",
             "label": "./taxonomic_assignments/Extended_final_table_May2021_18S_noBlank_TaxonomyCurated.csv",
@@ -1123,25 +1051,6 @@
             "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
             "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the 18S sequences produced in May 2021",
             "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_May2021_18S_noBlank_TaxonomyCurated.csv"
-        },
-        {
-            "@id": "./taxonomic_assignments/tax_assignments_January2022_COI_noBlank.tsv",
-            "@type": "File",
-            "label": "./taxonomic_assignments/tax_assignments_January2022_COI_noBlank.tsv"
-        },
-        {
-            "@id": "./taxonomic_assignments/Extended_final_table_April2021_ITS_noBlank.xlsx",
-            "@type": "File",
-            "label": "./taxonomic_assignments/Extended_final_table_April2021_ITS_noBlank.xlsx",
-            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
-            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the ITS sequences produced in April 2021",
-            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_April2021_ITS_noBlank.xlsx"
-        },
-        {
-            "@id": "./taxonomic_assignments/tax_assignments_September2020_COI_noBlank.tsv",
-            "@type": "File",
-            "label": "./taxonomic_assignments/tax_assignments_September2020_COI_noBlank.tsv"
         },
         {
             "@id": "./taxonomic_assignments/Extended_final_table_July2019_18S_noBlank_TaxonomyCurated.csv",
@@ -1153,55 +1062,13 @@
             "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_July2019_18S_noBlank_TaxonomyCurated.csv"
         },
         {
-            "@id": "./taxonomic_assignments/Extended_final_table_January2020_COI_noBlank_TaxonomyFull.csv",
+            "@id": "./taxonomic_assignments/Extended_final_table_January2022_18S_noBlank_TaxonomyCurated.csv",
             "@type": "File",
-            "label": "./taxonomic_assignments/Extended_final_table_January2020_COI_noBlank_TaxonomyFull.csv",
+            "label": "./taxonomic_assignments/Extended_final_table_January2022_18S_noBlank_TaxonomyCurated.csv",
             "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
             "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
-            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the COI sequences produced in January 2020",
-            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_January2020_COI_noBlank_TaxonomyFull.csv"
-        },
-        {
-            "@id": "./taxonomic_assignments/Samples_with_no_results.xlsx",
-            "@type": "File",
-            "label": "./taxonomic_assignments/Samples_with_no_results.xlsx",
-            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
-            "description": "List of material sample IDs that produced no PEMA results",
-            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Samples_with_no_results.xlsx"
-        },
-        {
-            "@id": "./taxonomic_assignments/Extended_final_table_May2021_COI_noBlank_TaxonomyFull.csv",
-            "@type": "File",
-            "label": "./taxonomic_assignments/Extended_final_table_May2021_COI_noBlank_TaxonomyFull.csv",
-            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
-            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the COI sequences produced in May 2021",
-            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_May2021_COI_noBlank_TaxonomyFull.csv"
-        },
-        {
-            "@id": "./taxonomic_assignments/tax_assignments_July2019_COI_noBlank.tsv",
-            "@type": "File",
-            "label": "./taxonomic_assignments/tax_assignments_July2019_COI_noBlank.tsv"
-        },
-        {
-            "@id": "./taxonomic_assignments/README.md",
-            "@type": "File",
-            "label": "./taxonomic_assignments/README.md"
-        },
-        {
-            "@id": "./taxonomic_assignments/Extended_final_table_August2023_18S_noBlank_TaxonomyCurated.csv",
-            "@type": "File",
-            "label": "./taxonomic_assignments/Extended_final_table_August2023_18S_noBlank_TaxonomyCurated.csv"
-        },
-        {
-            "@id": "./taxonomic_assignments/Extended_final_table_September2020_COI_noBlank_TaxonomyFull.csv",
-            "@type": "File",
-            "label": "./taxonomic_assignments/Extended_final_table_September2020_COI_noBlank_TaxonomyFull.csv",
-            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
-            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the COI sequences produced in September 2020",
-            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_September2020_COI_noBlank_TaxonomyFull.csv"
+            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the 18S sequences produced in January 2022",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_January2022_18S_noBlank_TaxonomyCurated.csv"
         },
         {
             "@id": "./taxonomic_assignments/Extended_final_table_July2019_ITS_noBlank.xlsx",
@@ -1213,30 +1080,6 @@
             "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_July2019_ITS_noBlank_TaxonomyCurated.csv"
         },
         {
-            "@id": "./taxonomic_assignments/tax_assignments_May2021_COI_noBlank.tsv",
-            "@type": "File",
-            "label": "./taxonomic_assignments/tax_assignments_May2021_COI_noBlank.tsv"
-        },
-        {
-            "@id": "./taxonomic_assignments/Extended_final_table_January2022_18S_noBlank_TaxonomyCurated.csv",
-            "@type": "File",
-            "label": "./taxonomic_assignments/Extended_final_table_January2022_18S_noBlank_TaxonomyCurated.csv",
-            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
-            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the 18S sequences produced in January 2022",
-            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_January2022_18S_noBlank_TaxonomyCurated.csv"
-        },
-        {
-            "@id": "./taxonomic_assignments/Extended_final_table_August2023_COI_noBlank_TaxonomyFull.csv",
-            "@type": "File",
-            "label": "./taxonomic_assignments/Extended_final_table_August2023_COI_noBlank_TaxonomyFull.csv"
-        },
-        {
-            "@id": "./taxonomic_assignments/Extended_final_table_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO_18S_noBlank_TaxonomyCurated.csv",
-            "@type": "File",
-            "label": "./taxonomic_assignments/Extended_final_table_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO_18S_noBlank_TaxonomyCurated.csv"
-        },
-        {
             "@id": "./taxonomic_assignments/Extended_final_table_April2021_18S_noBlank_TaxonomyCurated.csv",
             "@type": "File",
             "label": "./taxonomic_assignments/Extended_final_table_April2021_18S_noBlank_TaxonomyCurated.csv",
@@ -1246,14 +1089,171 @@
             "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_April2021_18S_noBlank_TaxonomyCurated.csv"
         },
         {
-            "@id": "./pema_overview_batch1.xlsx",
+            "@id": "./taxonomic_assignments/README.md",
             "@type": "File",
-            "label": "./pema_overview_batch1.xlsx"
+            "label": "./taxonomic_assignments/README.md"
+        },
+        {
+            "@id": "./taxonomic_assignments/tax_assignments_January2022_COI_noBlank.tsv",
+            "@type": "File",
+            "label": "./taxonomic_assignments/tax_assignments_January2022_COI_noBlank.tsv"
+        },
+        {
+            "@id": "./taxonomic_assignments/Extended_final_table_April2021_COI_noBlank_TaxonomyFull.csv",
+            "@type": "File",
+            "label": "./taxonomic_assignments/Extended_final_table_April2021_COI_noBlank_TaxonomyFull.csv",
+            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
+            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the COI sequences produced in April 2021",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_April2021_COI_noBlank_TaxonomyFull.csv"
+        },
+        {
+            "@id": "./taxonomic_assignments/Extended_final_table_July2019_COI_noBlank_TaxonomyFull.csv",
+            "@type": "File",
+            "label": "./taxonomic_assignments/Extended_final_table_July2019_COI_noBlank_TaxonomyFull.csv",
+            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
+            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the COI sequences produced in July 2019",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_July2019_COI_noBlank_TaxonomyFull.csv"
+        },
+        {
+            "@id": "./taxonomic_assignments/tax_assignments_August2023_COI_noBlank.tsv",
+            "@type": "File",
+            "label": "./taxonomic_assignments/tax_assignments_August2023_COI_noBlank.tsv",
+            "fileFormat": "https://www.iana.org/assignments/media-types/text/tab-separated-values",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
+            "description": "PEMA output OTU/ASV IDs, full taxonomic classification with their confidence levels, for the COI sequences produced in Aug. 2023",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/tax_assignments_August2023_COI_noBlank.tsv"
+        },
+        {
+            "@id": "./taxonomic_assignments/Extended_final_table_May2021_COI_noBlank_TaxonomyFull.csv",
+            "@type": "File",
+            "label": "./taxonomic_assignments/Extended_final_table_May2021_COI_noBlank_TaxonomyFull.csv",
+            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
+            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the COI sequences produced in May 2021",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_May2021_COI_noBlank_TaxonomyFull.csv"
+        },
+        {
+            "@id": "./taxonomic_assignments/Extended_final_table_August2023_18S_noBlank_TaxonomyCurated.csv",
+            "@type": "File",
+            "label": "./taxonomic_assignments/Extended_final_table_August2023_18S_noBlank_TaxonomyCurated.csv"
+        },
+        {
+            "@id": "./taxonomic_assignments/Samples_with_no_results.xlsx",
+            "@type": "File",
+            "label": "./taxonomic_assignments/Samples_with_no_results.xlsx",
+            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
+            "description": "List of material sample IDs that produced no PEMA results",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Samples_with_no_results.xlsx"
+        },
+        {
+            "@id": "./taxonomic_assignments/OTUs_ASVs_that_were_removed_modified_because_they_occurred_in_the_blanks.xlsx",
+            "@type": "File",
+            "label": "./taxonomic_assignments/OTUs_ASVs_that_were_removed_modified_because_they_occurred_in_the_blanks.xlsx"
+        },
+        {
+            "@id": "./taxonomic_assignments/tax_assignments_May2021_COI_noBlank.tsv",
+            "@type": "File",
+            "label": "./taxonomic_assignments/tax_assignments_May2021_COI_noBlank.tsv"
+        },
+        {
+            "@id": "./taxonomic_assignments/Extended_final_table_January2020_18S_noBlank_TaxonomyCurated.csv",
+            "@type": "File",
+            "label": "./taxonomic_assignments/Extended_final_table_January2020_18S_noBlank_TaxonomyCurated.csv",
+            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
+            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the 18S sequences produced in January 2020",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_January2020_18S_noBlank_TaxonomyCurated.csv"
+        },
+        {
+            "@id": "./taxonomic_assignments/tax_assignments_January2020_COI_noBlank.tsv",
+            "@type": "File",
+            "label": "./taxonomic_assignments/tax_assignments_January2020_COI_noBlank.tsv"
+        },
+        {
+            "@id": "./taxonomic_assignments/tax_assignments_April2021_COI_noBlank.tsv",
+            "@type": "File",
+            "label": "./taxonomic_assignments/tax_assignments_April2021_COI_noBlank.tsv",
+            "fileFormat": "https://www.iana.org/assignments/media-types/text/tab-separated-values",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
+            "description": "PEMA output OTU/ASV IDs, full taxonomic classification with their confidence levels, for the COI sequences produced in April 2021",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/tax_assignments_April2021_COI_noBlank.tsv"
+        },
+        {
+            "@id": "./taxonomic_assignments/Extended_final_table_January2020_COI_noBlank_TaxonomyFull.csv",
+            "@type": "File",
+            "label": "./taxonomic_assignments/Extended_final_table_January2020_COI_noBlank_TaxonomyFull.csv",
+            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
+            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the COI sequences produced in January 2020",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_January2020_COI_noBlank_TaxonomyFull.csv"
+        },
+        {
+            "@id": "./taxonomic_assignments/tax_assignments_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO_COI_noBlank.tsv",
+            "@type": "File",
+            "label": "./taxonomic_assignments/tax_assignments_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO_COI_noBlank.tsv",
+            "fileFormat": "https://www.iana.org/assignments/media-types/text/tab-separated-values",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
+            "description": "PEMA output OTU/ASV IDs, full taxonomic classification with their confidence levels, for the COI sequences produced for Gydnia",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/tax_assignments_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO_COI_noBlank.tsv"
+        },
+        {
+            "@id": "./taxonomic_assignments/Extended_final_table_September2020_COI_noBlank_TaxonomyFull.csv",
+            "@type": "File",
+            "label": "./taxonomic_assignments/Extended_final_table_September2020_COI_noBlank_TaxonomyFull.csv",
+            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
+            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the COI sequences produced in September 2020",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_September2020_COI_noBlank_TaxonomyFull.csv"
+        },
+        {
+            "@id": "./taxonomic_assignments/Extended_final_table_January2022_COI_noBlank_TaxonomyFull.csv",
+            "@type": "File",
+            "label": "./taxonomic_assignments/Extended_final_table_January2022_COI_noBlank_TaxonomyFull.csv",
+            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
+            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the COI sequences produced in January 2022",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_January2022_COI_noBlank_TaxonomyFull.csv"
+        },
+        {
+            "@id": "./taxonomic_assignments/Extended_final_table_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO_18S_noBlank_TaxonomyCurated.csv",
+            "@type": "File",
+            "label": "./taxonomic_assignments/Extended_final_table_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO_18S_noBlank_TaxonomyCurated.csv"
+        },
+        {
+            "@id": "./taxonomic_assignments/Extended_final_table_April2021_ITS_noBlank.xlsx",
+            "@type": "File",
+            "label": "./taxonomic_assignments/Extended_final_table_April2021_ITS_noBlank.xlsx",
+            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
+            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the ITS sequences produced in April 2021",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_April2021_ITS_noBlank.xlsx"
+        },
+        {
+            "@id": "./taxonomic_assignments/Extended_final_table_September2020_18S_noBlank_TaxonomyCurated.csv",
+            "@type": "File",
+            "label": "./taxonomic_assignments/Extended_final_table_September2020_18S_noBlank_TaxonomyCurated.csv",
+            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
+            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the 18S sequences produced in September 2020",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_September2020_18S_noBlank_TaxonomyCurated.csv"
+        },
+        {
+            "@id": "./taxonomic_assignments/tax_assignments_September2020_COI_noBlank.tsv",
+            "@type": "File",
+            "label": "./taxonomic_assignments/tax_assignments_September2020_COI_noBlank.tsv"
         },
         {
             "@id": "./config.yml",
             "@type": "File",
             "label": "./config.yml"
+        },
+        {
+            "@id": "./pema_overview_batch1.xlsx",
+            "@type": "File",
+            "label": "./pema_overview_batch1.xlsx"
         },
         {
             "@id": "./LICENSE",
