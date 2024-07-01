@@ -19,7 +19,10 @@
                 {
                     "@id": "./fasta/README.md"
                 }
-            ]
+            ],
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/fasta",
+            "description": "The README in this folder contains a table with the download URLs to the fasta files for the COI processing",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./fasta/"
         },
         {
             "@id": "./parameter_files/",
@@ -83,7 +86,10 @@
                 {
                     "@id": "./parameter_files/parameters0f.COI_Jul2019.tsv"
                 }
-            ]
+            ],
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/parameter_files",
+            "description": "The folder contataining the PEMA parameter files",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./parameter_files/"
         },
         {
             "@id": "./taxonomic_assignments/",
@@ -177,7 +183,10 @@
                 {
                     "@id": "./taxonomic_assignments/Extended_final_table_April2021_18S_noBlank_TaxonomyCurated.csv"
                 }
-            ]
+            ],
+            "description": "The folder containing the PEMA output files with taxonomic assignements and ASV/OTUs",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments"
         },
         {
             "@id": "./",
@@ -201,6 +210,596 @@
                 },
                 {
                     "@id": "./LICENSE"
+                }
+            ],
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "title": "analysis_release_001",
+            "contactPoint": [
+                "opsci@vliz.be",
+                {
+                    "@id": "_:MatthiasObst"
+                },
+                {
+                    "@id": "_:ChristinaPavloudi"
+                }
+            ],
+            "wasAssociatedWith": [
+                {
+                    "@id": "_:MatthiasObst"
+                },
+                {
+                    "@id": "_:KatrinaExter"
+                },
+                {
+                    "@id": "_:ChristinaPavloudi"
+                }
+            ],
+            "creator": [
+                {
+                    "@id": "_:MatthiasObst"
+                },
+                {
+                    "@id": "_:ChristinaPavloudi"
+                },
+                {
+                    "@id": "_:HarisZafeiropoulos"
+                },
+                {
+                    "@id": "_:ARMSProject"
+                },
+                {
+                    "@id": "_:AssemblePlus"
+                }
+            ],
+            "publisher": {
+                "@id": "_:VLIZ"
+            },
+            "ContactPoint": [
+                "opsci@vliz.be",
+                "matthias.obst@marine.gu.se"
+            ],
+            "description": "The first analysis-data release for the ARMS-MBON project, for COI, 18S, and ITS marker genes. These are selected bioinformatics in/outputs from the PEMA processing of the material samples from 2018 until 2020. ",
+            "wasInfluencedBy": {
+                "@type": "SoftwareApplication",
+                "name": "PEMA",
+                "softwareVersion": "2.1.4",
+                "url": "https://github.com/hariszaf/pema/tree/v.2.1.4"
+            },
+            "dct:relation": [
+                "https://github.com/arms-mbon/data_release_001",
+                "https://github.com/arms-mbon/code_release_001"
+            ],
+            "keywords": [
+                "https://dwc.tdwg.org/terms/#materialsample",
+                "https://schema.org/Dataset",
+                "ARMS",
+                "MBON",
+                "https://vocabularyserver.com/asfa/index.php?tema=2185&/Biodiversity",
+                "https://vocabularyserver.com/asfa/index.php?tema=2091&/benthic-communities",
+                "https://vocabularyserver.com/asfa/index.php?tema=3505&/Long-term-changes",
+                "https://vocabularyserver.com/asfa/index.php?tema=2146&/biology",
+                "https://vocabularyserver.com/asfa/index.php?tema=1150&/marine-environment",
+                "https://vocabularyserver.com/asfa/index.php?tema=2365&/genetics"
+            ],
+            "temporal": {
+                "start": "2018-07-01",
+                "end": "2020-12-11"
+            },
+            "spatialCoverage": [
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "51.64971",
+                        "longitude": "2.789374"
+                    },
+                    "geoCoveredBy": "http://marineregions.org/mrgid/26567"
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "51.6533567",
+                        "longitude": "2.79178508"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/26567"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "51.65264",
+                        "longitude": "2.79369998"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/26567"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "51.65374944",
+                        "longitude": "2.79602577"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/26567"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "51.64505",
+                        "longitude": "2.793074"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/26567"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "51.364298",
+                        "longitude": "3.20701"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/26567"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "51.362906",
+                        "longitude": "3.183634"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/26567"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "51.66522",
+                        "longitude": "2.82558"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/26567"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "51.68821",
+                        "longitude": "2.84921"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/26567"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "51.64816667",
+                        "longitude": "2.53583333"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/26567"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "51.579833",
+                        "longitude": "2.9955"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/26567"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "51.11486388",
+                        "longitude": "2.57857672"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/26567"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "51.11529044",
+                        "longitude": "2.57995513"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/26567"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "57.25689",
+                        "longitude": "11.14193"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/27388"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "57.25692",
+                        "longitude": "11.14197"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/27388"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "57.25692",
+                        "longitude": "11.14199"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/27388"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "56.90155",
+                        "longitude": "9.05516667"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/40806"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "56.89985",
+                        "longitude": "9.05663333"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/40806"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "56.90131667",
+                        "longitude": "9.05733333"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/40806"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "43.338452",
+                        "longitude": "-3.014833"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/17355"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "43.3385",
+                        "longitude": "-3.01491"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/17355"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "43.33843",
+                        "longitude": "-3.01483"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/17355"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "42.2284",
+                        "longitude": "-8.7787"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/40020"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "59.841505",
+                        "longitude": "23.248879"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/27436"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "59.86442",
+                        "longitude": "23.265084"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/27436"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "59.81094",
+                        "longitude": "23.206216"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/27436"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "48.72872",
+                        "longitude": "-3.95894"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/5216"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "48.71751",
+                        "longitude": "-3.96649"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/17786"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "50.3674",
+                        "longitude": "-4.1552"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/24206"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "50.3673",
+                        "longitude": "-4.1554"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/24206"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "50.3668",
+                        "longitude": "-4.1561"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/24206"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "50.3674",
+                        "longitude": "-4.1544"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/24206"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "50.350134",
+                        "longitude": "-4.159167"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/24206"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "35.343153",
+                        "longitude": "25.136605"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/48617"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "35.34662",
+                        "longitude": "25.27876"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/48617"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "29.52",
+                        "longitude": "34.934444"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/4263"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "29.50555",
+                        "longitude": "34.920278"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/4263"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "67.240217",
+                        "longitude": "14.711533"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/18664"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "78.21302778",
+                        "longitude": "15.23361111"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/42425"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "78.18833333",
+                        "longitude": "15.14472222"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/42425"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "54.48522",
+                        "longitude": "18.57111"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/29088"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "45.54875",
+                        "longitude": "13.5507"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/29864"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "45.5188",
+                        "longitude": "13.5673"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/29864"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "45.564856",
+                        "longitude": "13.743586"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/29864"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "58.875155",
+                        "longitude": "11.103194"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/28676"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "58.87633",
+                        "longitude": "11.111884"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/28676"
+                    }
+                },
+                {
+                    "@type": "Place",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "58.859877",
+                        "longitude": "11.080491"
+                    },
+                    "geoCoveredBy": {
+                        "URL": "http://marineregions.org/mrgid/28676"
+                    }
                 }
             ]
         },
@@ -428,7 +1027,11 @@
         {
             "@id": "./taxonomic_assignments/Extended_final_table_January2020_18S_noBlank_TaxonomyCurated.csv",
             "@type": "File",
-            "label": "./taxonomic_assignments/Extended_final_table_January2020_18S_noBlank_TaxonomyCurated.csv"
+            "label": "./taxonomic_assignments/Extended_final_table_January2020_18S_noBlank_TaxonomyCurated.csv",
+            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
+            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the 18S sequences produced in January 2020",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_January2020_18S_noBlank_TaxonomyCurated.csv"
         },
         {
             "@id": "./taxonomic_assignments/tax_assignments_August2023_COI_noBlank.tsv",
@@ -456,17 +1059,29 @@
         {
             "@id": "./taxonomic_assignments/Extended_final_table_July2019_COI_noBlank_TaxonomyFull.csv",
             "@type": "File",
-            "label": "./taxonomic_assignments/Extended_final_table_July2019_COI_noBlank_TaxonomyFull.csv"
+            "label": "./taxonomic_assignments/Extended_final_table_July2019_COI_noBlank_TaxonomyFull.csv",
+            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
+            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the COI sequences produced in July 2019",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_July2019_COI_noBlank_TaxonomyFull.csv"
         },
         {
             "@id": "./taxonomic_assignments/Extended_final_table_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO_COI_noBlank_TaxonomyFull.csv",
             "@type": "File",
-            "label": "./taxonomic_assignments/Extended_final_table_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO_COI_noBlank_TaxonomyFull.csv"
+            "label": "./taxonomic_assignments/Extended_final_table_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO_COI_noBlank_TaxonomyFull.csv",
+            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
+            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the COI sequences produced for Gdynia",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO_COI_noBlank_TaxonomyFull.csv"
         },
         {
             "@id": "./taxonomic_assignments/Extended_final_table_April2021_COI_noBlank_TaxonomyFull.csv",
             "@type": "File",
-            "label": "./taxonomic_assignments/Extended_final_table_April2021_COI_noBlank_TaxonomyFull.csv"
+            "label": "./taxonomic_assignments/Extended_final_table_April2021_COI_noBlank_TaxonomyFull.csv",
+            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
+            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the COI sequences produced in April 2021",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_April2021_COI_noBlank_TaxonomyFull.csv"
         },
         {
             "@id": "./taxonomic_assignments/tax_assignments_ARMS_Gdynia_GDY1_20180813_20191029_SF38_DMSO_COI_noBlank.tsv",
@@ -480,12 +1095,20 @@
         {
             "@id": "./taxonomic_assignments/Extended_final_table_September2020_18S_noBlank_TaxonomyCurated.csv",
             "@type": "File",
-            "label": "./taxonomic_assignments/Extended_final_table_September2020_18S_noBlank_TaxonomyCurated.csv"
+            "label": "./taxonomic_assignments/Extended_final_table_September2020_18S_noBlank_TaxonomyCurated.csv",
+            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
+            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the 18S sequences produced in September 2020",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_September2020_18S_noBlank_TaxonomyCurated.csv"
         },
         {
             "@id": "./taxonomic_assignments/Extended_final_table_January2022_COI_noBlank_TaxonomyFull.csv",
             "@type": "File",
-            "label": "./taxonomic_assignments/Extended_final_table_January2022_COI_noBlank_TaxonomyFull.csv"
+            "label": "./taxonomic_assignments/Extended_final_table_January2022_COI_noBlank_TaxonomyFull.csv",
+            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
+            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the COI sequences produced in January 2022",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_January2022_COI_noBlank_TaxonomyFull.csv"
         },
         {
             "@id": "./taxonomic_assignments/tax_assignments_January2020_COI_noBlank.tsv",
@@ -495,7 +1118,11 @@
         {
             "@id": "./taxonomic_assignments/Extended_final_table_May2021_18S_noBlank_TaxonomyCurated.csv",
             "@type": "File",
-            "label": "./taxonomic_assignments/Extended_final_table_May2021_18S_noBlank_TaxonomyCurated.csv"
+            "label": "./taxonomic_assignments/Extended_final_table_May2021_18S_noBlank_TaxonomyCurated.csv",
+            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
+            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the 18S sequences produced in May 2021",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_May2021_18S_noBlank_TaxonomyCurated.csv"
         },
         {
             "@id": "./taxonomic_assignments/tax_assignments_January2022_COI_noBlank.tsv",
@@ -519,12 +1146,20 @@
         {
             "@id": "./taxonomic_assignments/Extended_final_table_July2019_18S_noBlank_TaxonomyCurated.csv",
             "@type": "File",
-            "label": "./taxonomic_assignments/Extended_final_table_July2019_18S_noBlank_TaxonomyCurated.csv"
+            "label": "./taxonomic_assignments/Extended_final_table_July2019_18S_noBlank_TaxonomyCurated.csv",
+            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
+            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the 18S sequences produced in July 2019",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_July2019_18S_noBlank_TaxonomyCurated.csv"
         },
         {
             "@id": "./taxonomic_assignments/Extended_final_table_January2020_COI_noBlank_TaxonomyFull.csv",
             "@type": "File",
-            "label": "./taxonomic_assignments/Extended_final_table_January2020_COI_noBlank_TaxonomyFull.csv"
+            "label": "./taxonomic_assignments/Extended_final_table_January2020_COI_noBlank_TaxonomyFull.csv",
+            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
+            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the COI sequences produced in January 2020",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_January2020_COI_noBlank_TaxonomyFull.csv"
         },
         {
             "@id": "./taxonomic_assignments/Samples_with_no_results.xlsx",
@@ -538,7 +1173,11 @@
         {
             "@id": "./taxonomic_assignments/Extended_final_table_May2021_COI_noBlank_TaxonomyFull.csv",
             "@type": "File",
-            "label": "./taxonomic_assignments/Extended_final_table_May2021_COI_noBlank_TaxonomyFull.csv"
+            "label": "./taxonomic_assignments/Extended_final_table_May2021_COI_noBlank_TaxonomyFull.csv",
+            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
+            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the COI sequences produced in May 2021",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_May2021_COI_noBlank_TaxonomyFull.csv"
         },
         {
             "@id": "./taxonomic_assignments/tax_assignments_July2019_COI_noBlank.tsv",
@@ -558,7 +1197,11 @@
         {
             "@id": "./taxonomic_assignments/Extended_final_table_September2020_COI_noBlank_TaxonomyFull.csv",
             "@type": "File",
-            "label": "./taxonomic_assignments/Extended_final_table_September2020_COI_noBlank_TaxonomyFull.csv"
+            "label": "./taxonomic_assignments/Extended_final_table_September2020_COI_noBlank_TaxonomyFull.csv",
+            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
+            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the COI sequences produced in September 2020",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_September2020_COI_noBlank_TaxonomyFull.csv"
         },
         {
             "@id": "./taxonomic_assignments/Extended_final_table_July2019_ITS_noBlank.xlsx",
@@ -567,7 +1210,7 @@
             "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
             "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
             "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the ITS sequences produced in July 2019",
-            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_July2019_ITS_noBlank.xlsx"
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_July2019_ITS_noBlank_TaxonomyCurated.csv"
         },
         {
             "@id": "./taxonomic_assignments/tax_assignments_May2021_COI_noBlank.tsv",
@@ -577,7 +1220,11 @@
         {
             "@id": "./taxonomic_assignments/Extended_final_table_January2022_18S_noBlank_TaxonomyCurated.csv",
             "@type": "File",
-            "label": "./taxonomic_assignments/Extended_final_table_January2022_18S_noBlank_TaxonomyCurated.csv"
+            "label": "./taxonomic_assignments/Extended_final_table_January2022_18S_noBlank_TaxonomyCurated.csv",
+            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
+            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the 18S sequences produced in January 2022",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_January2022_18S_noBlank_TaxonomyCurated.csv"
         },
         {
             "@id": "./taxonomic_assignments/Extended_final_table_August2023_COI_noBlank_TaxonomyFull.csv",
@@ -592,7 +1239,11 @@
         {
             "@id": "./taxonomic_assignments/Extended_final_table_April2021_18S_noBlank_TaxonomyCurated.csv",
             "@type": "File",
-            "label": "./taxonomic_assignments/Extended_final_table_April2021_18S_noBlank_TaxonomyCurated.csv"
+            "label": "./taxonomic_assignments/Extended_final_table_April2021_18S_noBlank_TaxonomyCurated.csv",
+            "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments",
+            "description": "PEMA output OTU/ASV IDs, number of reads, taxonomic assignments, for the 18S sequences produced in April 2021",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/Extended_final_table_April2021_18S_noBlank_TaxonomyCurated.csv"
         },
         {
             "@id": "./pema_overview_batch1.xlsx",
