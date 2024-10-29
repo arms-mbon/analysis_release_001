@@ -56,7 +56,9 @@
                         "latitude":"51.64971",
                         "longitude":"2.789374"
                 },
-                "geoCoveredBy":"http://marineregions.org/mrgid/26567"
+                "geoCoveredBy": {
+			"url": "http://marineregions.org/mrgid/26567"
+		}
             },
             {
                 "@type":"Place",
@@ -66,7 +68,7 @@
                         "longitude":"2.79178508"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/26567"
+                    "url":"http://marineregions.org/mrgid/26567"
                 }
             },
             {
@@ -77,7 +79,7 @@
                         "longitude":"2.79369998"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/26567"
+                    "url":"http://marineregions.org/mrgid/26567"
                 }
             },  
             {
@@ -88,7 +90,7 @@
                         "longitude":"2.79602577"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/26567"
+                    "url":"http://marineregions.org/mrgid/26567"
                 }
             },     
             {
@@ -99,7 +101,7 @@
                         "longitude":"2.793074"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/26567"
+                    "url":"http://marineregions.org/mrgid/26567"
                 }
             },
             {
@@ -110,7 +112,7 @@
                         "longitude":"3.20701"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/26567"
+                    "url":"http://marineregions.org/mrgid/26567"
                 }
             },
             {
@@ -121,7 +123,7 @@
                         "longitude":"3.183634"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/26567"
+                    "url":"http://marineregions.org/mrgid/26567"
                 }
             },
             {
@@ -132,7 +134,7 @@
                         "longitude":"2.82558"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/26567"
+                    "url":"http://marineregions.org/mrgid/26567"
                 }
             },
             {
@@ -143,7 +145,7 @@
                         "longitude":"2.84921"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/26567"
+                    "url":"http://marineregions.org/mrgid/26567"
                 }
             },
             {
@@ -154,7 +156,7 @@
                         "longitude":"2.53583333"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/26567"
+                    "url":"http://marineregions.org/mrgid/26567"
                 }
             },
             {
@@ -165,7 +167,7 @@
                         "longitude":"2.9955"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/26567"
+                    "url":"http://marineregions.org/mrgid/26567"
                 }
             },
             {
@@ -176,7 +178,7 @@
                         "longitude":"2.57857672"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/26567"
+                    "url":"http://marineregions.org/mrgid/26567"
                 }
             },
             {
@@ -187,7 +189,7 @@
                         "longitude":"2.57995513"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/26567"
+                    "url":"http://marineregions.org/mrgid/26567"
                 }
             },
             {
@@ -198,7 +200,7 @@
                         "longitude":"11.14193"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/27388"
+                    "url":"http://marineregions.org/mrgid/27388"
                 }
             },
             {
@@ -209,7 +211,7 @@
                         "longitude":"11.14197"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/27388"
+                    "url":"http://marineregions.org/mrgid/27388"
                 }
             },
             {
@@ -220,7 +222,7 @@
                         "longitude":"11.14199"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/27388"
+                    "url":"http://marineregions.org/mrgid/27388"
                 }
             },
             {
@@ -231,7 +233,7 @@
                         "longitude":"9.05516667"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/40806"
+                    "url":"http://marineregions.org/mrgid/40806"
                 }
             },
             {
@@ -242,7 +244,7 @@
                         "longitude":"9.05663333"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/40806"
+                    "url":"http://marineregions.org/mrgid/40806"
                 }
             },
             {
@@ -253,7 +255,7 @@
                         "longitude":"9.05733333"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/40806"
+                    "url":"http://marineregions.org/mrgid/40806"
                 }
             },
             {
@@ -264,7 +266,7 @@
                         "longitude":"-3.014833"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/17355"
+                    "url":"http://marineregions.org/mrgid/17355"
                 }
             },
             {
@@ -275,7 +277,7 @@
                         "longitude":"-3.01491"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/17355"
+                    "url":"http://marineregions.org/mrgid/17355"
                 }
             },
             {
@@ -286,7 +288,7 @@
                         "longitude":"-3.01483"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/17355"
+                    "url":"http://marineregions.org/mrgid/17355"
                 }
             },
             {
@@ -297,7 +299,7 @@
                         "longitude":"-8.7787"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/40020"
+                    "url":"http://marineregions.org/mrgid/40020"
                 }
             },
             {
@@ -308,7 +310,7 @@
                         "longitude":"23.248879"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/27436"
+                    "url":"http://marineregions.org/mrgid/27436"
                 }
             },
             {
@@ -319,7 +321,7 @@
                         "longitude":"23.265084"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/27436"
+                    "url":"http://marineregions.org/mrgid/27436"
                 }
             },
             {
@@ -330,7 +332,7 @@
                         "longitude":"23.206216"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/27436"
+                    "url":"http://marineregions.org/mrgid/27436"
                 }
             },
             {
@@ -341,7 +343,7 @@
                         "longitude":"-3.95894"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/5216"
+                    "url":"http://marineregions.org/mrgid/5216"
                 }
             },
             {
@@ -352,7 +354,7 @@
                         "longitude":"-3.96649"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/17786"
+                    "url":"http://marineregions.org/mrgid/17786"
                 }
             },
             {
@@ -363,7 +365,7 @@
                         "longitude":"-4.1552"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/24206"
+                    "url":"http://marineregions.org/mrgid/24206"
                 }
             },
             {
@@ -374,7 +376,7 @@
                         "longitude":"-4.1554"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/24206"
+                    "url":"http://marineregions.org/mrgid/24206"
                 }
             },
             {
@@ -385,7 +387,7 @@
                         "longitude":"-4.1561"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/24206"
+                    "url":"http://marineregions.org/mrgid/24206"
                 }
             },
             {
@@ -396,7 +398,7 @@
                         "longitude":"-4.1544"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/24206"
+                    "url":"http://marineregions.org/mrgid/24206"
                 }
             },
             {
@@ -407,7 +409,7 @@
                         "longitude":"-4.159167"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/24206"
+                    "url":"http://marineregions.org/mrgid/24206"
                 }
             },
             {
@@ -418,7 +420,7 @@
                         "longitude":"25.136605"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/48617"
+                    "url":"http://marineregions.org/mrgid/48617"
                 }
             },
             {
@@ -429,7 +431,7 @@
                         "longitude":"25.27876"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/48617"
+                    "url":"http://marineregions.org/mrgid/48617"
                 }
             },
             {
@@ -440,7 +442,7 @@
                         "longitude":"34.934444"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/4263"
+                    "url":"http://marineregions.org/mrgid/4263"
                 }
             },
             {
@@ -451,7 +453,7 @@
                         "longitude":"34.920278"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/4263"
+                    "url":"http://marineregions.org/mrgid/4263"
                 }
             },
             {
@@ -462,7 +464,7 @@
                         "longitude":"14.711533"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/18664"
+                    "url":"http://marineregions.org/mrgid/18664"
                 }
             },
             {
@@ -473,7 +475,7 @@
                         "longitude":"15.23361111"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/42425"
+                    "url":"http://marineregions.org/mrgid/42425"
                 }
             },
             {
@@ -484,7 +486,7 @@
                         "longitude":"15.14472222"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/42425"
+                    "url":"http://marineregions.org/mrgid/42425"
                 }
             },
             {
@@ -495,7 +497,7 @@
                         "longitude":"18.57111"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/29088"
+                    "url":"http://marineregions.org/mrgid/29088"
                 }
             },
             {
@@ -506,7 +508,7 @@
                         "longitude":"13.5507"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/29864"
+                    "url":"http://marineregions.org/mrgid/29864"
                 }
             },
             {
@@ -517,7 +519,7 @@
                         "longitude":"13.5673"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/29864"
+                    "url":"http://marineregions.org/mrgid/29864"
                 }
             },
             {
@@ -528,7 +530,7 @@
                         "longitude":"13.743586"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/29864"
+                    "url":"http://marineregions.org/mrgid/29864"
                 }
             },
             {
@@ -539,7 +541,7 @@
                         "longitude":"11.103194"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/28676"
+                    "url":"http://marineregions.org/mrgid/28676"
                 }
             },
             {
@@ -550,7 +552,7 @@
                         "longitude":"11.111884"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/28676"
+                    "url":"http://marineregions.org/mrgid/28676"
                 }
             },
             {
@@ -561,7 +563,7 @@
                         "longitude":"11.080491"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/28676"
+                    "url":"http://marineregions.org/mrgid/28676"
                 }
             }
         ]         
