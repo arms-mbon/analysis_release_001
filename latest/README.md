@@ -1,6 +1,6 @@
 # analysis_release_001
 
-These are the PEMA input/output files representing the source data for the first ARMS-MBON dataset submitted to (Eur)OBIS (see the README in [data_release_001](https://github.com/arms-mbon/data_release_001)): count and taxonomy tables, fasta files, and PEMA parameter files for the COI, 18S, and ITS marker gene sequence data for the events of ARMS-MBON's first sampling campaign (i.e. samples from all ARMS deployed in 2018 and 2019 and retrieved between and 2018 and 2020).  
+These are the PEMA input/output files representing the source data for the first ARMS-MBON dataset submitted to (Eur)OBIS (see the README in [data_release_001](https://github.com/arms-mbon/data_release_001) for an explanation of the source data): count and taxonomy tables, fasta files, and PEMA parameter files for the COI, 18S, and ITS marker gene sequence data for the events of ARMS-MBON's first sampling campaign (i.e. samples from all ARMS deployed in 2018 and 2019 and retrieved between and 2018 and 2020).  
 
 [PEMA](https://github.com/hariszaf/pema) is the metabarcoding analysis pipeline we use to process the COI, 18S, and ITS raw sequence data obtained from the ARMS-MBON samples. 
 
@@ -14,6 +14,8 @@ The sequence data were processed separately for marker genes and MiSeq sequencin
 PEMA was marker genes and MiSeq sequencing runs, and each PEMA run therefore has its own parameter, read count, taxonomic assignment, and fasta files. An overview of the processing - including the material sample IDs, ENA accession numbers, deployment dates and corresponding observatories etc. - from which one can identify which samples were processed in which group, is provided in [pema_overview_COI_batch1.xlsx](https://github.com/arms-mbon/analysis_release_001/blob/main/pema_overview_COI_batch1.xlsx). 
 
 The full set of PEMA files (i.e., for all the ARMS-MBON processing we have done) can be found in [ARMS GitHub working space](https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema). This analysis_release_001 repository is specifically the subset of those results representing [processing_batch1](https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1).
+
+Note that the code used to analyse the taxonomic outputs of PEMA for this first data release can be found in (code_release_001)[https://github.com/arms-mbon/code_release_001).
 
 Some of the PEMA processing metadata for the runs performed here. Further information can be found in the manuscript associated with data_release_001 and via the PEMA URL:
 | parameter | value |
