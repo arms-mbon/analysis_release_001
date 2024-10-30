@@ -1,6 +1,6 @@
 # analysis_release_001
 
-These are the PEMA input/output files representing the source data for the first ARMS-MBON dataset submitted to EurOBIS ([DOI](https://doi.org/10.14284/620)): count and taxonomy tables, fasta files, and PEMA parameter files for the COI, 18S, and ITS marker gene sequence data for the events of ARMS-MBON's first sampling campaign (i.e. samples from all ARMS deployed in 2018 and 2019 and retrieved between and 2018 and 2020).  
+These are the PEMA input/output files representing the source data for the first ARMS-MBON dataset submitted to (Eur)OBIS (see the README in [data_release_001](https://github.com/arms-mbon/data_release_001)): count and taxonomy tables, fasta files, and PEMA parameter files for the COI, 18S, and ITS marker gene sequence data for the events of ARMS-MBON's first sampling campaign (i.e. samples from all ARMS deployed in 2018 and 2019 and retrieved between and 2018 and 2020).  
 
 [PEMA](https://github.com/hariszaf/pema) is the metabarcoding analysis pipeline we use to process the COI, 18S, and ITS raw sequence data obtained from the ARMS-MBON samples. 
 
