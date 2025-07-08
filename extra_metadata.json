@@ -735,10 +735,10 @@
             "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./taxonomic_assignments/",
             "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1/taxonomic_assignments"
         },
-        "./pema_overview_COI_batch1.xlsx": {
+        "./pema_overview_batch1.xlsx": {
             "wasDerivedFrom": "https://github.com/arms-mbon/data_workspace/blob/main/analysis_data/from_pema/processing_batch1/pema_overview_batch1.xlsx",
-            "description": "An overvew of in/output files from the COI PEMA processing",
-            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./pema_overview_COI_match1.xlsx"
+            "description": "An overvew of in/output files from the PEMA processing",
+            "downloadURL": "https://data.arms-mbon.org/analysis_release_001/latest/#./pema_overview_batch1.xlsx"
         },
         "./parameter_files/parameters0f.COI_April2021.tsv": {
             "encodingFormat": "https://www.iana.org/assignments/media-types/text/tab-separated-values",
